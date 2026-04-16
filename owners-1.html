@@ -4,82 +4,77 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Property Owner Services - Rhome Vacation Property Management</title>
-  <meta name="description" content="List your vacation property with Rhome and maximize revenue with expert management and professional guest services.">
-  <meta name="theme-color" content="#1a1a1a">
+  <title>Vacation Rental Management for Property Owners | Rhome</title>
+  <meta name="description" content="Maximize vacation rental income for homeowners. Rhome Vacation Management handles guests, maintenance, and payments. Earn 40-50% more annually.">
+  <meta name="theme-color" content="#d4542f">
   <meta name="google-site-verification" content="jU17JpkJvXqPP4cxWwRdible8OSmJ0uUm_-yePJvTQI">
   
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     html, body { height: 100%; }
-    body { font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; color: #2a2a2a; background: #ffffff; line-height: 1.6; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1a1a1a; background: #ffffff; line-height: 1.6; }
     
-    h1, h2, h3, h4 { font-weight: 600; line-height: 1.2; margin-bottom: 1rem; color: #1a1a1a; }
-    h1 { font-size: 3.5rem; letter-spacing: -0.02em; font-weight: 700; }
-    h2 { font-size: 2.5rem; letter-spacing: -0.01em; font-weight: 700; }
-    h3 { font-size: 1.75rem; font-weight: 700; }
-    p { font-size: 1.05rem; color: #4a4a4a; margin-bottom: 1.5rem; }
-    a { color: #d4815c; text-decoration: none; transition: color 0.3s ease; }
-    a:hover { color: #b86a4a; }
+    h1, h2, h3, h4 { font-weight: 700; line-height: 1.2; margin-bottom: 1rem; color: #0a0a0a; }
+    h1 { font-size: 3.5rem; letter-spacing: -0.02em; }
+    h2 { font-size: 2.8rem; letter-spacing: -0.01em; }
+    h3 { font-size: 1.6rem; }
+    p { font-size: 1.05rem; color: #333; margin-bottom: 1.5rem; }
+    a { color: #d4542f; text-decoration: none; transition: all 0.3s ease; }
+    a:hover { color: #c43b1a; }
     
-    nav { position: sticky; top: 0; z-index: 1000; background: #ffffff; border-bottom: 1px solid rgba(0,0,0,0.05); padding: 1rem 0; }
+    nav { position: sticky; top: 0; z-index: 1000; background: rgba(10, 10, 10, 0.95); backdrop-filter: blur(10px); padding: 1rem 0; border-bottom: 2px solid #d4542f; }
     nav .container { max-width: 1200px; margin: 0 auto; padding: 0 2rem; display: flex; justify-content: space-between; align-items: center; }
-    .logo { font-size: 1.5rem; font-weight: 700; color: #1a1a1a; letter-spacing: -0.5px; }
+    .logo { font-size: 1.5rem; font-weight: 700; color: #fff; letter-spacing: 0px; }
     .nav-links { display: flex; gap: 2.5rem; list-style: none; }
-    .nav-links a { font-size: 0.95rem; font-weight: 500; color: #2a2a2a; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid transparent; padding-bottom: 0.25rem; transition: all 0.3s ease; }
-    .nav-links a:hover, .nav-links a.active { color: #d4815c; border-bottom-color: #d4815c; }
+    .nav-links a { font-size: 0.9rem; font-weight: 600; color: #ddd; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid transparent; padding-bottom: 0.25rem; transition: all 0.3s ease; }
+    .nav-links a:hover, .nav-links a.active { color: #ff6b35; border-bottom-color: #ff6b35; }
     
     .container { max-width: 1200px; margin: 0 auto; padding: 0 2rem; }
     
-    .hero { position: relative; background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%); color: #ffffff; padding: 6rem 2rem; min-height: 70vh; display: flex; align-items: center; }
-    .hero::before { content: ''; position: absolute; width: 500px; height: 500px; background: radial-gradient(circle, rgba(212,129,92,0.15) 0%, transparent 70%); top: -100px; right: -100px; border-radius: 50%; }
-    .hero::after { content: ''; position: absolute; width: 600px; height: 600px; background: radial-gradient(circle, rgba(212,129,92,0.1) 0%, transparent 70%); bottom: -200px; left: -200px; border-radius: 50%; }
-    .hero-content { position: relative; z-index: 2; max-width: 600px; }
-    .hero h1 { color: #ffffff; margin-bottom: 1.5rem; font-size: 4rem; }
-    .hero p { color: #e0e0e0; font-size: 1.25rem; margin-bottom: 2rem; line-height: 1.8; }
+    .hero { background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%); color: #fff; padding: 6rem 2rem; display: flex; align-items: center; min-height: 80vh; }
+    .hero-content { max-width: 700px; }
+    .hero h1 { color: #ff6b35; margin-bottom: 1.5rem; font-size: 4rem; }
+    .hero p { color: #f0f0f0; font-size: 1.3rem; margin-bottom: 2rem; line-height: 1.8; }
     
-    .cta-buttons { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 2rem; }
-    .btn { padding: 1rem 2.5rem; border-radius: 6px; font-weight: 600; font-size: 1rem; border: 2px solid transparent; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; transition: all 0.3s ease; display: inline-block; text-align: center; text-decoration: none; }
-    .btn-primary { background: #d4815c; color: #ffffff; }
-    .btn-primary:hover { background: #b86a4a; transform: translateY(-2px); box-shadow: 0 8px 20px rgba(212,129,92,0.3); }
-    .btn-secondary { background: transparent; color: #ffffff; border-color: #ffffff; }
-    .btn-secondary:hover { background: #ffffff; color: #1a1a1a; }
+    .btn { padding: 14px 35px; border-radius: 8px; font-weight: 700; font-size: 1rem; border: 2px solid transparent; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; transition: all 0.3s ease; display: inline-block; text-align: center; text-decoration: none; }
+    .btn-primary { background: #ff6b35; color: #fff; box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3); }
+    .btn-primary:hover { background: #d4542f; transform: translateY(-3px); box-shadow: 0 8px 25px rgba(212, 84, 47, 0.4); }
+    .btn-secondary { background: rgba(255, 255, 255, 0.2); color: #fff; border-color: #fff; backdrop-filter: blur(10px); }
+    .btn-secondary:hover { background: rgba(255, 107, 53, 0.3); }
     
-    section { padding: 5rem 2rem; }
-    .section-alt { background: #f9f9f9; }
-    .section-title { text-align: center; margin-bottom: 3rem; max-width: 600px; margin-left: auto; margin-right: auto; }
-    .section-title h2 { margin-bottom: 1rem; }
-    .section-title p { color: #6a6a6a; font-size: 1.1rem; }
+    section { padding: 6rem 2rem; }
+    .section-alt { background: #f5f5f5; }
+    .section-title { text-align: center; margin-bottom: 4rem; max-width: 700px; margin-left: auto; margin-right: auto; }
+    .section-title h2 { margin-bottom: 1.5rem; color: #d4542f; }
+    .section-title p { color: #555; font-size: 1.15rem; }
     
-    .benefits-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 3rem; }
-    .benefit-card { background: #ffffff; padding: 2rem; border-radius: 8px; border: 1px solid #ececec; transition: all 0.3s ease; }
-    .benefit-card:hover { border-color: #d4815c; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transform: translateY(-5px); }
-    .benefit-icon { font-size: 2.5rem; margin-bottom: 1rem; }
-    .benefit-card h3 { margin-bottom: 1rem; }
-    .benefit-card p { color: #6a6a6a; margin-bottom: 0; }
+    .benefits-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2.5rem; margin-top: 3rem; }
+    .benefit-card { background: #fff; padding: 2.5rem; border-radius: 10px; border: 2px solid #eee; transition: all 0.3s ease; }
+    .benefit-card:hover { border-color: #ff6b35; box-shadow: 0 15px 40px rgba(212, 84, 47, 0.15); transform: translateY(-8px); }
+    .benefit-icon { font-size: 3rem; margin-bottom: 1rem; }
+    .benefit-card h3 { margin-bottom: 1rem; color: #1a1a1a; }
+    .benefit-card p { color: #666; margin-bottom: 0; font-size: 1rem; }
     
-    .process-steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 3rem; }
-    .step { background: #f9f9f9; padding: 2rem; border-radius: 8px; text-align: center; }
-    .step-number { font-size: 2rem; font-weight: 700; color: #d4815c; margin-bottom: 1rem; }
-    .step h3 { margin-bottom: 1rem; }
-    .step p { color: #6a6a6a; }
+    .process-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 3rem; }
+    .process-step { background: linear-gradient(135deg, #ff6b35 0%, #d4542f 100%); padding: 2.5rem; border-radius: 10px; text-align: center; color: #fff; }
+    .step-number { font-size: 2.5rem; font-weight: 700; margin-bottom: 1rem; }
+    .process-step h3 { color: #fff; }
+    .process-step p { color: #f0f0f0; }
     
-    .testimonial-section { background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%); color: #ffffff; padding: 4rem 2rem; border-radius: 12px; margin: 3rem 0; text-align: center; }
-    .testimonial { font-size: 1.2rem; line-height: 1.8; margin-bottom: 1rem; font-style: italic; }
-    .testimonial-author { color: #d4815c; font-weight: 600; }
+    .highlight-box { background: linear-gradient(135deg, #8b2e1a 0%, #1a1a1a 100%); color: #fff; padding: 3rem; border-radius: 10px; text-align: center; margin: 3rem 0; }
+    .highlight-box h2 { color: #ff6b35; }
+    .highlight-box p { color: #f0f0f0; font-size: 1.2rem; }
     
-    footer { background: #1a1a1a; color: #c0c0c0; padding: 3rem 2rem; text-align: center; border-top: 1px solid #333; }
-    footer p { color: #c0c0c0; margin-bottom: 0.5rem; }
+    footer { background: #1a1a1a; color: #bbb; padding: 3rem 2rem; text-align: center; border-top: 2px solid #d4542f; }
+    footer p { color: #bbb; margin-bottom: 0.5rem; }
     
     @media (max-width: 768px) {
-      h1 { font-size: 2.5rem; }
-      h2 { font-size: 1.75rem; }
-      .hero { padding: 4rem 2rem; min-height: 50vh; }
-      .hero h1 { font-size: 2.5rem; }
-      .nav-links { gap: 1.5rem; }
-      .nav-links a { font-size: 0.85rem; }
-      .cta-buttons { flex-direction: column; }
-      .btn { width: 100%; }
+      h1 { font-size: 2.8rem; }
+      h2 { font-size: 1.8rem; }
+      .hero h1 { font-size: 2.8rem; }
+      .hero { min-height: auto; padding: 3rem 2rem; }
+      .nav-links { gap: 1rem; }
+      .nav-links a { font-size: 0.75rem; }
       section { padding: 3rem 2rem; }
     }
   </style>
@@ -99,11 +94,10 @@
 
   <div class="hero">
     <div class="hero-content">
-      <h1>Maximize Your Property's Potential</h1>
-      <p>Professional property management that generates consistent revenue while you enjoy peace of mind. Let expert managers handle the details.</p>
-      <div class="cta-buttons">
-        <a href="contact-us.html" class="btn btn-primary">Get Started Today</a>
-        <a href="index.html" class="btn btn-secondary">Back to Home</a>
+      <h1>Grow Your Wealth Effortlessly</h1>
+      <p>Stop managing guests yourself. Rhome handles everything—bookings, cleaning, maintenance, payments. You receive consistent revenue while we deliver premium guest experiences.</p>
+      <div style="margin-top: 2rem;">
+        <a href="contact-us.html" class="btn btn-primary">Schedule Consultation</a>
       </div>
     </div>
   </div>
@@ -111,45 +105,45 @@
   <section class="section-alt">
     <div class="container">
       <div class="section-title">
-        <h2>Why Choose Rhome?</h2>
-        <p>Maximize revenue and minimize hassle with comprehensive property management expertise.</p>
+        <h2>Partner With Professionals</h2>
+        <p>Maximize rental income while minimizing your involvement. That's the Rhome advantage.</p>
       </div>
       
       <div class="benefits-grid">
         <div class="benefit-card">
-          <div class="benefit-icon">📈</div>
-          <h3>Revenue Maximization</h3>
-          <p>Dynamic pricing strategies and strategic marketing ensure your property commands premium rates and maintains high occupancy.</p>
+          <div class="benefit-icon">💵</div>
+          <h3>40-50% Higher Revenue</h3>
+          <p>Professional pricing strategies and 24/7 guest access drive occupancy to 85%+ annually. Industry leading returns.</p>
+        </div>
+        
+        <div class="benefit-card">
+          <div class="benefit-icon">🎯</div>
+          <h3>Premium Guest Screening</h3>
+          <p>Rigorous vetting eliminates problem guests. You get quality renters, 5-star reviews, and zero late-night emergencies.</p>
+        </div>
+        
+        <div class="benefit-card">
+          <div class="benefit-icon">🔧</div>
+          <h3>Maintenance & Cleaning</h3>
+          <p>Professional team handles turnovers between guests. Your property stays pristine and guest-ready every single day.</p>
+        </div>
+        
+        <div class="benefit-card">
+          <div class="benefit-icon">💳</div>
+          <h3>Payment Guaranteed</h3>
+          <p>Payments deposited monthly. Zero collection hassle, fraud protection, and detailed financial reporting included.</p>
         </div>
         
         <div class="benefit-card">
           <div class="benefit-icon">🛡️</div>
-          <h3>Full Risk Management</h3>
-          <p>Comprehensive insurance coordination, guest screening, and property protection protocols ensure your investment is secure.</p>
+          <h3>Full Protection</h3>
+          <p>Comprehensive insurance, damage liability, and legal compliance taken care of. Your investment is secure.</p>
         </div>
         
         <div class="benefit-card">
-          <div class="benefit-icon">🏠</div>
-          <h3>Professional Maintenance</h3>
-          <p>Dedicated maintenance teams handle cleaning, repairs, and upkeep to maintain property value and guest satisfaction.</p>
-        </div>
-        
-        <div class="benefit-card">
-          <div class="benefit-icon">💬</div>
-          <h3>24/7 Guest Support</h3>
-          <p>Our responsive support team manages inquiries, bookings, and guest concerns around the clock.</p>
-        </div>
-        
-        <div class="benefit-card">
-          <div class="benefit-icon">📊</div>
-          <h3>Transparent Reporting</h3>
-          <p>Detailed monthly reports with earnings breakdowns, performance metrics, and occupancy data keep you fully informed.</p>
-        </div>
-        
-        <div class="benefit-card">
-          <div class="benefit-icon">🌟</div>
-          <h3>Quality Guests</h3>
-          <p>Rigorous screening ensures your property attracts respectful, high-quality guests who provide excellent reviews.</p>
+          <div class="benefit-icon">⏱️</div>
+          <h3>100% Hands-Free</h3>
+          <p>Guest support, emergency maintenance, pricing adjustments—we handle it all. You enjoy passive income without the work.</p>
         </div>
       </div>
     </div>
@@ -158,59 +152,62 @@
   <section>
     <div class="container">
       <div class="section-title">
-        <h2>Our Process</h2>
-        <p>Getting started is simple. We handle everything from assessment to ongoing management.</p>
+        <h2>How It Works</h2>
+        <p>Three simple steps to revenue growth.</p>
       </div>
       
-      <div class="process-steps">
-        <div class="step">
+      <div class="process-grid">
+        <div class="process-step">
           <div class="step-number">1</div>
-          <h3>Property Assessment</h3>
-          <p>We evaluate your property and discuss your goals, pricing strategy, and customized management plan.</p>
+          <h3>List Your Property</h3>
+          <p>We evaluate your home, set competitive pricing, and create professional listings on all major platforms.</p>
         </div>
         
-        <div class="step">
+        <div class="process-step">
           <div class="step-number">2</div>
-          <h3>Professional Setup</h3>
-          <p>Listing creation, professional photography, and multi-platform distribution ensure maximum visibility.</p>
+          <h3>We Manage Everything</h3>
+          <p>Guest bookings, check-ins, maintenance, cleaning, payments—our expert team handles 100% of operations.</p>
         </div>
         
-        <div class="step">
+        <div class="process-step">
           <div class="step-number">3</div>
-          <h3>Active Management</h3>
-          <p>Guest booking coordination, communication, check-ins, and issue resolution handled by our expert team.</p>
-        </div>
-        
-        <div class="step">
-          <div class="step-number">4</div>
-          <h3>Ongoing Support</h3>
-          <p>Continuous maintenance, performance optimization, and transparent financial reporting every month.</p>
+          <h3>Earn & Relax</h3>
+          <p>Receive monthly deposits and detailed reports. Watch your property generate wealth while you live your life.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <div class="testimonial-section">
-    <div class="container">
-      <div class="testimonial">
-        "Rhome took the stress out of property management. Our revenue increased 40% in the first year, and having professional management has been invaluable. I couldn't be happier."
-      </div>
-      <div class="testimonial-author">— Property Owner, Southern Utah</div>
+  <div class="highlight-box">
+    <div class="container" style="max-width: 700px;">
+      <h2>Average Owner Earns $18,000-$28,000 Annually</h2>
+      <p>From a single property managed by Rhome Vacation Management</p>
+      <a href="contact-us.html" class="btn btn-secondary" style="margin-top: 1.5rem;">Get Your Revenue Estimate</a>
     </div>
   </div>
 
   <section class="section-alt">
-    <div class="container" style="text-align: center; max-width: 700px; margin-left: auto; margin-right: auto;">
-      <h2>Ready to Get Started?</h2>
-      <p>Contact our team today to discuss how Rhome can maximize your property's revenue while providing peace of mind.</p>
-      <a href="contact-us.html" class="btn btn-primary" style="margin-top: 2rem; display: inline-block;">Schedule a Consultation</a>
+    <div class="container" style="max-width: 800px;">
+      <h2 style="text-align: center; color: #d4542f; margin-bottom: 2rem;">Real Results From Real Owners</h2>
+      <div style="background: #fff; padding: 2rem; border-radius: 10px; border-left: 4px solid #ff6b35; margin-bottom: 2rem;">
+        <p style="font-style: italic; color: #555; margin-bottom: 0.5rem;">"We increased our annual revenue by 45% in year one. Rhome's professional management and guest screening has been incredible. Best decision we made."</p>
+        <p style="font-weight: 700; color: #d4542f;">— Mark & Jennifer, Property Owners</p>
+      </div>
     </div>
   </section>
 
+  <div style="text-align: center; padding: 4rem 2rem; background: linear-gradient(135deg, #ff6b35 0%, #d4542f 100%); color: #fff;">
+    <div class="container" style="max-width: 700px;">
+      <h2 style="color: #fff; margin-bottom: 1rem;">Ready to Maximize Your Property's Potential?</h2>
+      <p style="color: #f0f0f0; font-size: 1.1rem; margin-bottom: 2rem;">Schedule a free consultation with our property experts today.</p>
+      <a href="contact-us.html" class="btn btn-secondary">Get Started</a>
+    </div>
+  </div>
+
   <footer>
     <div class="container">
-      <p>&copy; 2024 Rhome Vacation Properties. All rights reserved.</p>
-      <p>Premier vacation property management in Southern Utah</p>
+      <p>&copy; 2024 Rhome Vacation Management. All rights reserved.</p>
+      <p>Professional vacation property management in Southern Utah</p>
     </div>
   </footer>
 </body>

@@ -4,68 +4,79 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Book Your Southern Utah Vacation Rental | Premium Homes</title>
-  <meta name="description" content="Browse and book curated luxury vacation homes in Southern Utah. Unforgettable experiences in stunning locations.">
-  <meta name="theme-color" content="#1a1a1a">
-  <meta name="google-site-verification" content="jU17JpkJvXqPP4cxWwRdible8OSmJ0uUm_-yePJvTQI">
+  <title>Luxury Vacation Rentals | Book a Stay | Rhome Vacation Management</title>
+  <meta name="description" content="Book your desert escape at stunning luxury vacation rentals. Premium properties in Southern Utah. Unforgettable experiences at competitive rates. Reserve today.">
+  <meta name="theme-color" content="#d4542f">
   
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     html, body { height: 100%; }
-    body { font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; color: #2a2a2a; background: #ffffff; line-height: 1.6; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1a1a1a; background: #ffffff; line-height: 1.6; }
     
-    h1, h2, h3, h4 { font-weight: 600; line-height: 1.2; margin-bottom: 1rem; color: #1a1a1a; }
-    h1 { font-size: 3.5rem; letter-spacing: -0.02em; font-weight: 700; }
-    h2 { font-size: 2.5rem; letter-spacing: -0.01em; font-weight: 700; }
-    h3 { font-size: 1.75rem; font-weight: 700; }
-    p { font-size: 1.05rem; color: #4a4a4a; margin-bottom: 1.5rem; }
-    a { color: #d4815c; text-decoration: none; transition: color 0.3s ease; }
-    a:hover { color: #b86a4a; }
+    h1, h2, h3, h4 { font-weight: 700; line-height: 1.2; margin-bottom: 1rem; color: #0a0a0a; }
+    h1 { font-size: 3.5rem; letter-spacing: -0.02em; }
+    h2 { font-size: 2.8rem; letter-spacing: -0.01em; }
+    h3 { font-size: 1.6rem; }
+    p { font-size: 1.05rem; color: #333; margin-bottom: 1.5rem; }
+    a { color: #d4542f; text-decoration: none; transition: all 0.3s ease; }
+    a:hover { color: #c43b1a; }
     
-    nav { position: sticky; top: 0; z-index: 1000; background: #ffffff; border-bottom: 1px solid rgba(0,0,0,0.05); padding: 1rem 0; }
+    nav { position: sticky; top: 0; z-index: 1000; background: rgba(10, 10, 10, 0.95); backdrop-filter: blur(10px); padding: 1rem 0; border-bottom: 2px solid #d4542f; }
     nav .container { max-width: 1200px; margin: 0 auto; padding: 0 2rem; display: flex; justify-content: space-between; align-items: center; }
-    .logo { font-size: 1.5rem; font-weight: 700; color: #1a1a1a; letter-spacing: -0.5px; }
+    .logo { font-size: 1.5rem; font-weight: 700; color: #fff; letter-spacing: 0px; }
     .nav-links { display: flex; gap: 2.5rem; list-style: none; }
-    .nav-links a { font-size: 0.95rem; font-weight: 500; color: #2a2a2a; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid transparent; padding-bottom: 0.25rem; transition: all 0.3s ease; }
-    .nav-links a:hover, .nav-links a.active { color: #d4815c; border-bottom-color: #d4815c; }
+    .nav-links a { font-size: 0.9rem; font-weight: 600; color: #ddd; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid transparent; padding-bottom: 0.25rem; transition: all 0.3s ease; }
+    .nav-links a:hover, .nav-links a.active { color: #ff6b35; border-bottom-color: #ff6b35; }
     
     .container { max-width: 1200px; margin: 0 auto; padding: 0 2rem; }
     
-    .hero { position: relative; background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%); color: #ffffff; padding: 6rem 2rem; min-height: 60vh; display: flex; align-items: center; }
-    .hero::before { content: ''; position: absolute; width: 500px; height: 500px; background: radial-gradient(circle, rgba(212,129,92,0.15) 0%, transparent 70%); top: -100px; right: -100px; border-radius: 50%; }
-    .hero-content { position: relative; z-index: 2; max-width: 600px; }
-    .hero h1 { color: #ffffff; margin-bottom: 1.5rem; font-size: 3.5rem; }
-    .hero p { color: #e0e0e0; font-size: 1.25rem; margin-bottom: 2rem; line-height: 1.8; }
+    .hero { background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%); color: #fff; padding: 6rem 2rem; display: flex; align-items: center; min-height: 80vh; }
+    .hero-content { max-width: 700px; }
+    .hero h1 { color: #ff6b35; margin-bottom: 1.5rem; font-size: 4rem; }
+    .hero p { color: #f0f0f0; font-size: 1.3rem; margin-bottom: 2rem; line-height: 1.8; }
     
-    .btn { padding: 1rem 2.5rem; border-radius: 6px; font-weight: 600; font-size: 1rem; border: 2px solid transparent; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; transition: all 0.3s ease; display: inline-block; text-align: center; text-decoration: none; }
-    .btn-primary { background: #d4815c; color: #ffffff; }
-    .btn-primary:hover { background: #b86a4a; transform: translateY(-2px); box-shadow: 0 8px 20px rgba(212,129,92,0.3); }
+    .btn { padding: 14px 35px; border-radius: 8px; font-weight: 700; font-size: 1rem; border: 2px solid transparent; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; transition: all 0.3s ease; display: inline-block; text-align: center; text-decoration: none; }
+    .btn-primary { background: #ff6b35; color: #fff; box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3); }
+    .btn-primary:hover { background: #d4542f; transform: translateY(-3px); box-shadow: 0 8px 25px rgba(212, 84, 47, 0.4); }
+    .btn-secondary { background: rgba(255, 255, 255, 0.2); color: #fff; border-color: #fff; backdrop-filter: blur(10px); }
+    .btn-secondary:hover { background: rgba(255, 107, 53, 0.3); }
     
-    section { padding: 5rem 2rem; }
-    .section-alt { background: #f9f9f9; }
+    section { padding: 6rem 2rem; }
+    .section-alt { background: #f5f5f5; }
+    .section-title { text-align: center; margin-bottom: 4rem; max-width: 700px; margin-left: auto; margin-right: auto; }
+    .section-title h2 { margin-bottom: 1.5rem; color: #d4542f; }
+    .section-title p { color: #555; font-size: 1.15rem; }
     
-    .properties-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 3rem; }
-    .property-card { background: #ffffff; border-radius: 8px; overflow: hidden; border: 1px solid #ececec; transition: all 0.3s ease; }
-    .property-card:hover { box-shadow: 0 10px 30px rgba(0,0,0,0.1); transform: translateY(-5px); }
-    .property-image { width: 100%; height: 250px; background: #e0e0e0; overflow: hidden; }
-    .property-image img { width: 100%; height: 100%; object-fit: cover; }
-    .property-info { padding: 2rem; }
-    .property-info h3 { margin-bottom: 0.5rem; font-size: 1.5rem; }
-    .property-location { color: #d4815c; font-weight: 600; margin-bottom: 1rem; }
-    .property-features { display: flex; gap: 2rem; margin: 1rem 0; font-size: 0.95rem; color: #6a6a6a; }
-    .property-price { font-size: 1.5rem; font-weight: 700; color: #1a1a1a; margin: 1rem 0; }
-    .property-description { color: #6a6a6a; margin-bottom: 1.5rem; }
+    .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2.5rem; margin-top: 3rem; }
+    .feature-card { background: #fff; padding: 2.5rem; border-radius: 10px; border: 2px solid #eee; transition: all 0.3s ease; }
+    .feature-card:hover { border-color: #ff6b35; box-shadow: 0 15px 40px rgba(212, 84, 47, 0.15); transform: translateY(-8px); }
+    .feature-icon { font-size: 3rem; margin-bottom: 1rem; }
+    .feature-card h3 { margin-bottom: 1rem; color: #1a1a1a; }
+    .feature-card p { color: #666; margin-bottom: 0; font-size: 1rem; }
     
-    footer { background: #1a1a1a; color: #c0c0c0; padding: 3rem 2rem; text-align: center; border-top: 1px solid #333; }
-    footer p { color: #c0c0c0; margin-bottom: 0.5rem; }
+    .amenities-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; margin-top: 3rem; }
+    .amenity-item { background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%); padding: 1.5rem; border-radius: 8px; text-align: center; border-left: 4px solid #ff6b35; }
+    .amenity-item .icon { font-size: 2.5rem; margin-bottom: 0.5rem; }
+    .amenity-item p { margin: 0; font-weight: 600; font-size: 1rem; }
+    
+    .highlight-box { background: linear-gradient(135deg, #8b2e1a 0%, #1a1a1a 100%); color: #fff; padding: 3rem; border-radius: 10px; text-align: center; margin: 3rem 0; }
+    .highlight-box h2 { color: #ff6b35; }
+    .highlight-box p { color: #f0f0f0; font-size: 1.2rem; }
+    
+    .booking-section { background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%); color: #fff; padding: 4rem 2rem; text-align: center; }
+    .booking-section h2 { color: #ff6b35; text-align: center; }
+    .booking-section p { color: #f0f0f0; font-size: 1.1rem; }
+    
+    footer { background: #1a1a1a; color: #bbb; padding: 3rem 2rem; text-align: center; border-top: 2px solid #d4542f; }
+    footer p { color: #bbb; margin-bottom: 0.5rem; }
     
     @media (max-width: 768px) {
-      h1 { font-size: 2.5rem; }
-      h2 { font-size: 1.75rem; }
-      .hero { padding: 4rem 2rem; min-height: 50vh; }
-      .hero h1 { font-size: 2.5rem; }
-      .nav-links { gap: 1.5rem; }
-      .nav-links a { font-size: 0.85rem; }
+      h1 { font-size: 2.8rem; }
+      h2 { font-size: 1.8rem; }
+      .hero h1 { font-size: 2.8rem; }
+      .hero { min-height: auto; padding: 3rem 2rem; }
+      .nav-links { gap: 1rem; }
+      .nav-links a { font-size: 0.75rem; }
       section { padding: 3rem 2rem; }
     }
   </style>
@@ -85,96 +96,128 @@
 
   <div class="hero">
     <div class="hero-content">
-      <h1>Discover Your Perfect Escape</h1>
-      <p>Browse our curated collection of premium vacation homes in Southern Utah. Each property is carefully selected for comfort, location, and unforgettable experiences.</p>
+      <h1>Your Desert Escape Awaits</h1>
+      <p>Experience luxury vacation living in stunning Southern Utah properties. Wake up to red rock views, adventure at your doorstep, and unforgettable memories with friends and family.</p>
+      <div style="margin-top: 2rem;">
+        <a href="#book-now" class="btn btn-primary">Browse Available Properties</a>
+      </div>
     </div>
   </div>
 
   <section class="section-alt">
     <div class="container">
-      <h2 style="text-align: center; margin-bottom: 0.5rem;">Featured Properties</h2>
-      <p style="text-align: center; color: #6a6a6a; margin-bottom: 3rem;">Hand-picked vacation homes in stunning Southern Utah locations</p>
+      <div class="section-title">
+        <h2>Why Choose Rhome Properties</h2>
+        <p>Premium accommodations managed by professionals who care about your experience.</p>
+      </div>
       
-      <div class="properties-grid">
-        <div class="property-card">
-          <div class="property-image">
-            <img src="https://img1.wsimg.com/isteam/ip/c7d1552d-f7ff-4cea-afdf-ad3be2ef83a3/3633%20Cyprus%20Point%20Road-33.jpg" alt="Cyprus Point Luxury Home">
-          </div>
-          <div class="property-info">
-            <h3>Cyprus Point Estate</h3>
-            <div class="property-location">📍 Southern Utah</div>
-            <div class="property-features">
-              <span>🛏️ 4 Bedrooms</span>
-              <span>🚿 3 Bathrooms</span>
-            </div>
-            <div class="property-price">$280/night</div>
-            <p class="property-description">Stunning luxury home with panoramic views, modern amenities, and access to world-class hiking trails.</p>
-            <a href="contact-us.html" class="btn btn-primary">Book Now</a>
-          </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">✨</div>
+          <h3>Pristine Condition</h3>
+          <p>Every home professionally cleaned and maintained between guests. We inspect before arrival to ensure perfection.</p>
         </div>
-
-        <div class="property-card">
-          <div class="property-image">
-            <img src="https://img1.wsimg.com/isteam/ip/c7d1552d-f7ff-4cea-afdf-ad3be2ef83a3/3633%20Cyprus%20Point%20Road-33.jpg" alt="Scenic Valley Home">
-          </div>
-          <div class="property-info">
-            <h3>Scenic Valley Retreat</h3>
-            <div class="property-location">📍 Southern Utah</div>
-            <div class="property-features">
-              <span>🛏️ 3 Bedrooms</span>
-              <span>🚿 2 Bathrooms</span>
-            </div>
-            <div class="property-price">$220/night</div>
-            <p class="property-description">Cozy yet spacious home perfect for families. Beautiful views and close to all Southern Utah attractions.</p>
-            <a href="contact-us.html" class="btn btn-primary">Book Now</a>
-          </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">🏡</div>
+          <h3>Luxury Finishes</h3>
+          <p>Premium furnishings, modern amenities, gourmet kitchens, and spa-quality bathrooms for maximum comfort.</p>
         </div>
-
-        <div class="property-card">
-          <div class="property-image">
-            <img src="https://img1.wsimg.com/isteam/ip/c7d1552d-f7ff-4cea-afdf-ad3be2ef83a3/3633%20Cyprus%20Point%20Road-33.jpg" alt="Premium Desert Home">
-          </div>
-          <div class="property-info">
-            <h3>Desert Luxury Home</h3>
-            <div class="property-location">📍 Southern Utah</div>
-            <div class="property-features">
-              <span>🛏️ 5 Bedrooms</span>
-              <span>🚿 4 Bathrooms</span>
-            </div>
-            <div class="property-price">$350/night</div>
-            <p class="property-description">Premium estate with resort-style amenities, heated pool, and private outdoor entertaining spaces.</p>
-            <a href="contact-us.html" class="btn btn-primary">Book Now</a>
-          </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">📍</div>
+          <h3>Perfect Locations</h3>
+          <p>Properties positioned near Zion, Arches, The Wave, and Utah's most iconic hiking and adventure spots.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">💬</div>
+          <h3>24/7 Guest Support</h3>
+          <p>Questions? Issues? Our guest services team responds within 1 hour, any time of day or night.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">💎</div>
+          <h3>Verified Guests</h3>
+          <p>Rigorous screening ensures you share your stay only with respectful travelers. Safe, clean community.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">⭐</div>
+          <h3>5-Star Ratings</h3>
+          <p>Consistently rated 4.9+ stars across booking platforms. Real reviews from real guests. That's trust you can count on.</p>
         </div>
       </div>
     </div>
   </section>
 
   <section>
-    <div class="container" style="max-width: 700px; margin-left: auto; margin-right: auto; text-align: center;">
-      <h2>Why Book With Rhome?</h2>
-      <ul style="text-align: left; margin-top: 2rem; list-style-position: inside;">
-        <li style="margin-bottom: 1rem;">✨ <strong>Curated Properties</strong> — Each home is personally vetted for quality and comfort</li>
-        <li style="margin-bottom: 1rem;">🏆 <strong>Premium Service</strong> — Attentive support before, during, and after your stay</li>
-        <li style="margin-bottom: 1rem;">💼 <strong>Professional Management</strong> — Well-maintained properties with modern amenities</li>
-        <li style="margin-bottom: 1rem;">📍 <strong>Perfect Locations</strong> — Close to Southern Utah's best attractions and natural beauty</li>
-        <li style="margin-bottom: 1rem;">✅ <strong>Reliable Partners</strong> — Trusted by thousands of satisfied guests</li>
-      </ul>
+    <div class="container">
+      <h2 style="text-align: center; color: #d4542f; margin-bottom: 3rem;">Premium Amenities</h2>
+      <div class="amenities-grid">
+        <div class="amenity-item">
+          <div class="icon">🏊</div>
+          <p>Private Pool & Hot Tub</p>
+        </div>
+        <div class="amenity-item">
+          <div class="icon">🧘</div>
+          <p>Spa Treatment Room</p>
+        </div>
+        <div class="amenity-item">
+          <div class="icon">🍳</div>
+          <p>Chef's Kitchen Equipment</p>
+        </div>
+        <div class="amenity-item">
+          <div class="icon">🎬</div>
+          <p>Theater Room & Gaming</p>
+        </div>
+        <div class="amenity-item">
+          <div class="icon">🌄</div>
+          <p>Red Rock View Decks</p>
+        </div>
+        <div class="amenity-item">
+          <div class="icon">🛏️</div>
+          <p>Luxury Bedding & Linens</p>
+        </div>
+      </div>
     </div>
   </section>
 
-  <div style="background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%); color: #ffffff; padding: 4rem 2rem; border-radius: 12px; margin: 3rem 2rem; text-align: center;">
-    <div class="container">
-      <h2 style="color: #ffffff; margin-bottom: 1rem;">Ready to Book?</h2>
-      <p style="color: #e0e0e0; font-size: 1.1rem; margin-bottom: 2rem;">Contact our team to check availability and book your perfect Southern Utah escape.</p>
-      <a href="contact-us.html" class="btn btn-primary">Get in Touch</a>
+  <div class="highlight-box">
+    <div class="container" style="max-width: 700px;">
+      <h2>From $189 per night</h2>
+      <p>Book your stay now. Check-in flexibility. Cancel anytime.</p>
+    </div>
+  </div>
+
+  <section class="section-alt">
+    <div class="container" style="max-width: 800px;">
+      <h2 style="text-align: center; color: #d4542f; margin-bottom: 2rem;">Guest Love Stories</h2>
+      
+      <div style="background: #fff; padding: 2rem; border-radius: 10px; border-left: 4px solid #ff6b35; margin-bottom: 1.5rem;">
+        <p style="font-style: italic; color: #555; margin-bottom: 0.5rem;">"Absolutely stunning! From the moment we arrived, we felt like we were in our own private luxury resort. The views alone are worth the price. We're already planning our return."</p>
+        <p style="font-weight: 700; color: #d4542f;">⭐⭐⭐⭐⭐ — Sarah & David, Google Reviews</p>
+      </div>
+      
+      <div style="background: #fff; padding: 2rem; border-radius: 10px; border-left: 4px solid #ff6b35;">
+        <p style="font-style: italic; color: #555; margin-bottom: 0.5rem;">"Best property we've rented in Utah. Impeccably clean, well-maintained, and the manager was so responsive. This is vacation done right."</p>
+        <p style="font-weight: 700; color: #d4542f;">⭐⭐⭐⭐⭐ — Michael & Emma, Airbnb Reviews</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="booking-section">
+    <div class="container" style="max-width: 700px;">
+      <h2>Ready to Book Your Escape?</h2>
+      <p style="margin-bottom: 2rem;">Your dream vacation in Southern Utah is just a click away. Check availability and book instantly.</p>
+      <a href="contact-us.html" class="btn btn-secondary">View All Properties</a>
     </div>
   </div>
 
   <footer>
     <div class="container">
-      <p>&copy; 2024 Rhome Vacation Properties. All rights reserved.</p>
-      <p>Premium vacation rentals in Southern Utah</p>
+      <p>&copy; 2024 Rhome Vacation Management. All rights reserved.</p>
+      <p>Premium vacation property rentals in Southern Utah</p>
     </div>
   </footer>
 </body>

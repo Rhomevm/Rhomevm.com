@@ -4,70 +4,83 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Contact Rhome Vacation Properties</title>
-  <meta name="description" content="Get in touch with Rhome. We're here to help with inquiries about vacation rentals and property management.">
-  <meta name="theme-color" content="#1a1a1a">
-  <meta name="google-site-verification" content="jU17JpkJvXqPP4cxWwRdible8OSmJ0uUm_-yePJvTQI">
+  <title>Contact Us | Rhome Vacation Management</title>
+  <meta name="description" content="Get in touch with Rhome Vacation Management. Questions about renting your property or booking a stay? Contact our team today.">
+  <meta name="theme-color" content="#d4542f">
   
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     html, body { height: 100%; }
-    body { font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; color: #2a2a2a; background: #ffffff; line-height: 1.6; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1a1a1a; background: #ffffff; line-height: 1.6; }
     
-    h1, h2, h3, h4 { font-weight: 600; line-height: 1.2; margin-bottom: 1rem; color: #1a1a1a; }
-    h1 { font-size: 3.5rem; letter-spacing: -0.02em; font-weight: 700; }
-    h2 { font-size: 2.5rem; letter-spacing: -0.01em; font-weight: 700; }
-    h3 { font-size: 1.75rem; font-weight: 700; }
-    p { font-size: 1.05rem; color: #4a4a4a; margin-bottom: 1.5rem; }
-    a { color: #d4815c; text-decoration: none; transition: color 0.3s ease; }
-    a:hover { color: #b86a4a; }
+    h1, h2, h3, h4 { font-weight: 700; line-height: 1.2; margin-bottom: 1rem; color: #0a0a0a; }
+    h1 { font-size: 3.5rem; letter-spacing: -0.02em; }
+    h2 { font-size: 2.8rem; letter-spacing: -0.01em; }
+    h3 { font-size: 1.6rem; }
+    p { font-size: 1.05rem; color: #333; margin-bottom: 1.5rem; }
+    a { color: #d4542f; text-decoration: none; transition: all 0.3s ease; }
+    a:hover { color: #c43b1a; }
     
-    nav { position: sticky; top: 0; z-index: 1000; background: #ffffff; border-bottom: 1px solid rgba(0,0,0,0.05); padding: 1rem 0; }
+    nav { position: sticky; top: 0; z-index: 1000; background: rgba(10, 10, 10, 0.95); backdrop-filter: blur(10px); padding: 1rem 0; border-bottom: 2px solid #d4542f; }
     nav .container { max-width: 1200px; margin: 0 auto; padding: 0 2rem; display: flex; justify-content: space-between; align-items: center; }
-    .logo { font-size: 1.5rem; font-weight: 700; color: #1a1a1a; letter-spacing: -0.5px; }
+    .logo { font-size: 1.5rem; font-weight: 700; color: #fff; letter-spacing: 0px; }
     .nav-links { display: flex; gap: 2.5rem; list-style: none; }
-    .nav-links a { font-size: 0.95rem; font-weight: 500; color: #2a2a2a; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid transparent; padding-bottom: 0.25rem; transition: all 0.3s ease; }
-    .nav-links a:hover, .nav-links a.active { color: #d4815c; border-bottom-color: #d4815c; }
+    .nav-links a { font-size: 0.9rem; font-weight: 600; color: #ddd; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid transparent; padding-bottom: 0.25rem; transition: all 0.3s ease; }
+    .nav-links a:hover, .nav-links a.active { color: #ff6b35; border-bottom-color: #ff6b35; }
     
     .container { max-width: 1200px; margin: 0 auto; padding: 0 2rem; }
     
-    .hero { position: relative; background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%); color: #ffffff; padding: 6rem 2rem; min-height: 60vh; display: flex; align-items: center; }
-    .hero::before { content: ''; position: absolute; width: 500px; height: 500px; background: radial-gradient(circle, rgba(212,129,92,0.15) 0%, transparent 70%); top: -100px; right: -100px; border-radius: 50%; }
-    .hero-content { position: relative; z-index: 2; max-width: 600px; }
-    .hero h1 { color: #ffffff; margin-bottom: 1rem; font-size: 3.5rem; }
-    .hero p { color: #e0e0e0; font-size: 1.1rem; line-height: 1.8; }
+    .hero { background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%); color: #fff; padding: 4rem 2rem; text-align: center; }
+    .hero h1 { color: #ff6b35; margin-bottom: 1rem; }
+    .hero p { color: #f0f0f0; font-size: 1.2rem; }
     
-    section { padding: 5rem 2rem; }
-    .section-alt { background: #f9f9f9; }
+    .btn { padding: 14px 35px; border-radius: 8px; font-weight: 700; font-size: 1rem; border: 2px solid transparent; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; transition: all 0.3s ease; display: inline-block; text-align: center; text-decoration: none; }
+    .btn-primary { background: #ff6b35; color: #fff; box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3); }
+    .btn-primary:hover { background: #d4542f; transform: translateY(-3px); box-shadow: 0 8px 25px rgba(212, 84, 47, 0.4); }
     
-    .contact-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start; }
-    .contact-info div { margin-bottom: 2rem; }
-    .contact-info h3 { margin-bottom: 0.5rem; }
-    .contact-info p { margin-bottom: 0; }
+    section { padding: 4rem 2rem; }
+    .section-alt { background: #f5f5f5; }
     
-    form { max-width: 100%; }
+    .contact-wrapper { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start; margin-top: 3rem; }
+    
+    .contact-info { background: linear-gradient(135deg, #2d2d2d 0%, #1a1a1a 100%); color: #fff; padding: 3rem; border-radius: 10px; }
+    .contact-info h3 { color: #ff6b35; margin-bottom: 2rem; }
+    .contact-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid #444; }
+    .contact-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+    .contact-item h4 { color: #f0f0f0; font-size: 1.1rem; margin-bottom: 0.5rem; }
+    .contact-item p { color: #bbb; margin-bottom: 0; }
+    .contact-item a { color: #ff6b35; }
+    .contact-item a:hover { color: #ffb366; }
+    
+    .contact-form { background: #fff; padding: 2.5rem; border-radius: 10px; border: 2px solid #eee; }
+    .contact-form h3 { color: #d4542f; margin-bottom: 1.5rem; }
+    
     .form-group { margin-bottom: 1.5rem; }
-    label { display: block; font-weight: 600; margin-bottom: 0.5rem; color: #1a1a1a; }
-    input, textarea { width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 6px; font-family: inherit; font-size: 1rem; transition: border-color 0.3s ease; }
-    input:focus, textarea:focus { outline: none; border-color: #d4815c; box-shadow: 0 0 0 3px rgba(212,129,92,0.1); }
+    label { display: block; margin-bottom: 0.5rem; font-weight: 600; color: #1a1a1a; font-size: 0.95rem; }
+    input, textarea, select { width: 100%; padding: 12px; border: 2px solid #ddd; border-radius: 6px; font-family: inherit; font-size: 1rem; transition: all 0.3s ease; }
+    input:focus, textarea:focus, select:focus { outline: none; border-color: #ff6b35; box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.1); }
     textarea { resize: vertical; min-height: 150px; }
     
-    .btn { padding: 1rem 2.5rem; border-radius: 6px; font-weight: 600; font-size: 1rem; border: 2px solid transparent; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; transition: all 0.3s ease; display: inline-block; text-align: center; text-decoration: none; width: 100%; }
-    .btn-primary { background: #d4815c; color: #ffffff; }
-    .btn-primary:hover { background: #b86a4a; transform: translateY(-2px); box-shadow: 0 8px 20px rgba(212,129,92,0.3); }
+    .form-group.button { margin-bottom: 0; }
+    .btn-submit { width: 100%; }
     
-    footer { background: #1a1a1a; color: #c0c0c0; padding: 3rem 2rem; text-align: center; border-top: 1px solid #333; }
-    footer p { color: #c0c0c0; margin-bottom: 0.5rem; }
+    .info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 3rem; }
+    .info-card { background: #fff; padding: 2rem; border-radius: 10px; text-align: center; border: 2px solid #eee; }
+    .info-card .icon { font-size: 2.5rem; margin-bottom: 1rem; }
+    .info-card h4 { color: #d4542f; margin-bottom: 0.5rem; }
+    .info-card p { color: #666; margin-bottom: 0; }
+    
+    footer { background: #1a1a1a; color: #bbb; padding: 3rem 2rem; text-align: center; border-top: 2px solid #d4542f; }
+    footer p { color: #bbb; margin-bottom: 0.5rem; }
     
     @media (max-width: 768px) {
-      h1 { font-size: 2.5rem; }
-      h2 { font-size: 1.75rem; }
-      .hero { padding: 4rem 2rem; min-height: 50vh; }
-      .hero h1 { font-size: 2.5rem; }
-      .nav-links { gap: 1.5rem; }
-      .nav-links a { font-size: 0.85rem; }
-      .contact-layout { grid-template-columns: 1fr; }
-      section { padding: 3rem 2rem; }
+      h1 { font-size: 2.8rem; }
+      h2 { font-size: 1.8rem; }
+      .hero h1 { font-size: 2.8rem; }
+      .contact-wrapper { grid-template-columns: 1fr; }
+      .nav-links { gap: 1rem; }
+      .nav-links a { font-size: 0.75rem; }
+      section { padding: 2rem 2rem; }
     }
   </style>
 </head>
@@ -85,47 +98,45 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-content">
-      <h1>Get in Touch</h1>
-      <p>Have questions about vacation rentals or interested in property management? We're here to help. Reach out anytime.</p>
-    </div>
+    <h1>Get in Touch</h1>
+    <p>Have questions? We'd love to hear from you. Reach out anytime.</p>
   </div>
 
   <section>
     <div class="container">
-      <div class="contact-layout">
+      <div class="contact-wrapper">
         <div class="contact-info">
-          <h2>Contact Information</h2>
+          <h3>Contact Information</h3>
           
-          <div>
-            <h3>📧 Email</h3>
+          <div class="contact-item">
+            <h4>📍 Headquarters</h4>
+            <p>Southern Utah</p>
+          </div>
+          
+          <div class="contact-item">
+            <h4>📞 Phone</h4>
+            <p><a href="tel:+1-555-0100">+1 (555) 0100</a></p>
+          </div>
+          
+          <div class="contact-item">
+            <h4>📧 Email</h4>
             <p><a href="mailto:info@rhomevm.com">info@rhomevm.com</a></p>
           </div>
           
-          <div>
-            <h3>📱 Phone</h3>
-            <p><a href="tel:+1435555100">(435) 555-0100</a></p>
+          <div class="contact-item">
+            <h4>🕐 Business Hours</h4>
+            <p>Monday – Friday: 9:00 AM – 6:00 PM<br>Saturday – Sunday: 10:00 AM – 4:00 PM<br><strong>24/7 Guest Support Available</strong></p>
           </div>
           
-          <div>
-            <h3>📍 Location</h3>
-            <p>Southern Utah<br>Serving the stunning properties around Zion, Bryce Canyon, and Grand Staircase-Escalante</p>
-          </div>
-          
-          <div>
-            <h3>⏰ Hours</h3>
-            <p>Monday - Friday: 9AM - 6PM<br>Saturday - Sunday: 10AM - 4PM<br>Available 24/7 for guests</p>
-          </div>
-          
-          <div style="margin-top: 2rem; padding: 2rem; background: #f9f9f9; border-radius: 8px;">
-            <h3 style="margin-bottom: 0.5rem;">Quick Response</h3>
-            <p style="font-size: 0.95rem; color: #6a6a6a;">We typically respond to inquiries within 2 hours during business hours and 12 hours on weekends.</p>
+          <div class="contact-item">
+            <h4>💡 We Respond In</h4>
+            <p>Email: Within 2 hours<br>Phone: Within 1 hour<br>Emergency: Immediate</p>
           </div>
         </div>
         
-        <div>
-          <h2>Send us a Message</h2>
-          <form>
+        <div class="contact-form">
+          <h3>Send us a Message</h3>
+          <form id="contact-form" onsubmit="handleFormSubmit(event)">
             <div class="form-group">
               <label for="name">Your Name *</label>
               <input type="text" id="name" name="name" required>
@@ -137,18 +148,13 @@
             </div>
             
             <div class="form-group">
-              <label for="phone">Phone Number</label>
-              <input type="tel" id="phone" name="phone">
-            </div>
-            
-            <div class="form-group">
               <label for="subject">Subject *</label>
-              <select id="subject" name="subject" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 6px; font-family: inherit; font-size: 1rem;" required>
-                <option value="">Select a topic...</option>
-                <option value="booking">Vacation Rental Booking</option>
-                <option value="property">Property Management Inquiry</option>
-                <option value="general">General Question</option>
-                <option value="other">Other</option>
+              <select id="subject" name="subject" required>
+                <option value="">-- Select a topic --</option>
+                <option>Property Listing Inquiry (Owner)</option>
+                <option>Booking Question (Guest)</option>
+                <option>General Information</option>
+                <option>Other</option>
               </select>
             </div>
             
@@ -157,9 +163,9 @@
               <textarea id="message" name="message" required></textarea>
             </div>
             
-            <button type="submit" class="btn btn-primary">Send Message</button>
-            
-            <p style="font-size: 0.85rem; color: #6a6a6a; margin-top: 1rem;">* Required fields</p>
+            <div class="form-group button">
+              <button type="submit" class="btn btn-primary btn-submit">Send Message</button>
+            </div>
           </form>
         </div>
       </div>
@@ -167,33 +173,51 @@
   </section>
 
   <section class="section-alt">
-    <div class="container" style="text-align: center; max-width: 700px; margin-left: auto; margin-right: auto;">
-      <h2>Frequently Asked Questions</h2>
-      
-      <div style="text-align: left; margin-top: 2rem;">
-        <div style="margin-bottom: 2rem; padding: 1.5rem; background: #ffffff; border-radius: 8px;">
-          <h3 style="font-size: 1.2rem;">How far in advance should I book?</h3>
-          <p style="margin-bottom: 0; color: #6a6a6a;">We recommend booking 2-4 weeks in advance for peak seasons, though last-minute bookings are sometimes available.</p>
+    <div class="container">
+      <h2 style="text-align: center; color: #d4542f; margin-bottom: 3rem;">How We Help</h2>
+      <div class="info-grid">
+        <div class="info-card">
+          <div class="icon">🏠</div>
+          <h4>For Property Owners</h4>
+          <p>Learn how to maximize rental income with professional management services. Schedule your free consultation.</p>
         </div>
         
-        <div style="margin-bottom: 2rem; padding: 1.5rem; background: #ffffff; border-radius: 8px;">
-          <h3 style="font-size: 1.2rem;">What is your cancellation policy?</h3>
-          <p style="margin-bottom: 0; color: #6a6a6a;">Cancellations made 30+ days before arrival receive a full refund. Cancellations within 30 days are non-refundable.</p>
+        <div class="info-card">
+          <div class="icon">✈️</div>
+          <h4>For Guests</h4>
+          <p>Get support with your booking, reservations, or questions about our properties and amenities.</p>
         </div>
         
-        <div style="margin-bottom: 2rem; padding: 1.5rem; background: #ffffff; border-radius: 8px;">
-          <h3 style="font-size: 1.2rem;">Can I list my property with Rhome?</h3>
-          <p style="margin-bottom: 0; color: #6a6a6a;">Absolutely! Contact us today to discuss how we can manage your property and maximize your rental income.</p>
+        <div class="info-card">
+          <div class="icon">💼</div>
+          <h4>For Businesses</h4>
+          <p>Corporate retreats, team building, group bookings. Custom packages available for your needs.</p>
         </div>
       </div>
     </div>
   </section>
 
+  <section style="background: linear-gradient(135deg, #ff6b35 0%, #d4542f 100%); color: #fff; text-align: center;">
+    <div class="container">
+      <h2 style="color: #fff; margin-bottom: 1rem;">Prefer to Call?</h2>
+      <p style="color: #f0f0f0; font-size: 1.2rem; margin-bottom: 0;">Our team is ready to help: <strong>+1 (555) 0100</strong></p>
+    </div>
+  </section>
+
   <footer>
     <div class="container">
-      <p>&copy; 2024 Rhome Vacation Properties. All rights reserved.</p>
+      <p>&copy; 2024 Rhome Vacation Management. All rights reserved.</p>
       <p>Professional vacation property management in Southern Utah</p>
     </div>
   </footer>
+
+  <script>
+    function handleFormSubmit(event) {
+      event.preventDefault();
+      // Form submission logic would go here
+      alert('Thank you for your message! We will get back to you within 2 hours.\n\nFor immediate assistance, call +1 (555) 0100');
+      document.getElementById('contact-form').reset();
+    }
+  </script>
 </body>
 </html>
