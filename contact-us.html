@@ -4,75 +4,76 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Contact Us | Rhome Vacation Management</title>
-  <meta name="description" content="Get in touch with Rhome Vacation Management. Questions about renting your property or booking a stay? Contact our team today.">
+  <title>Schedule Consultation | Rhome Vacation Management</title>
+  <meta name="description" content="Schedule your free consultation with Rhome property experts. Learn how much your property can earn and explore management options.">
   <meta name="theme-color" content="#d4542f">
-  
+
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     html, body { height: 100%; }
-    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1a1a1a; background: #ffffff; line-height: 1.6; }
-    
-    h1, h2, h3, h4 { font-weight: 700; line-height: 1.2; margin-bottom: 1rem; color: #0a0a0a; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #333; background: #ffffff; line-height: 1.6; }
+
+    h1, h2, h3, h4 { font-weight: 700; line-height: 1.2; margin-bottom: 1rem; color: #1a1a1a; }
     h1 { font-size: 3.5rem; letter-spacing: -0.02em; }
     h2 { font-size: 2.8rem; letter-spacing: -0.01em; }
     h3 { font-size: 1.6rem; }
-    p { font-size: 1.05rem; color: #333; margin-bottom: 1.5rem; }
+    p { font-size: 1.05rem; color: #555; margin-bottom: 1.5rem; }
     a { color: #d4542f; text-decoration: none; transition: all 0.3s ease; }
     a:hover { color: #c43b1a; }
-    
-    nav { position: sticky; top: 0; z-index: 1000; background: rgba(10, 10, 10, 0.95); backdrop-filter: blur(10px); padding: 1rem 0; border-bottom: 2px solid #d4542f; }
+
+    nav { position: sticky; top: 0; z-index: 1000; background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); padding: 1rem 0; border-bottom: 2px solid #d4542f; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
     nav .container { max-width: 1200px; margin: 0 auto; padding: 0 2rem; display: flex; justify-content: space-between; align-items: center; }
-    .logo { font-size: 1.5rem; font-weight: 700; color: #fff; letter-spacing: 0px; }
+    .logo { font-size: 1.5rem; font-weight: 700; color: #d4542f; letter-spacing: 1px; }
     .nav-links { display: flex; gap: 2.5rem; list-style: none; }
-    .nav-links a { font-size: 0.9rem; font-weight: 600; color: #ddd; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid transparent; padding-bottom: 0.25rem; transition: all 0.3s ease; }
+    .nav-links a { font-size: 0.9rem; font-weight: 600; color: #555; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid transparent; padding-bottom: 0.25rem; transition: all 0.3s ease; }
     .nav-links a:hover, .nav-links a.active { color: #ff6b35; border-bottom-color: #ff6b35; }
-    
+
     .container { max-width: 1200px; margin: 0 auto; padding: 0 2rem; }
-    
-    .hero { background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%); color: #fff; padding: 4rem 2rem; text-align: center; }
-    .hero h1 { color: #ff6b35; margin-bottom: 1rem; }
-    .hero p { color: #f0f0f0; font-size: 1.2rem; }
-    
-    .btn { padding: 14px 35px; border-radius: 8px; font-weight: 700; font-size: 1rem; border: 2px solid transparent; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; transition: all 0.3s ease; display: inline-block; text-align: center; text-decoration: none; }
-    .btn-primary { background: #ff6b35; color: #fff; box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3); }
-    .btn-primary:hover { background: #d4542f; transform: translateY(-3px); box-shadow: 0 8px 25px rgba(212, 84, 47, 0.4); }
-    
+
+    .hero { background: linear-gradient(135deg, #f9f9f9 0%, #ffffff 100%); color: #333; padding: 4rem 2rem; text-align: center; border-bottom: 1px solid #eee; }
+    .hero h1 { color: #d4542f; margin-bottom: 1rem; font-size: 3.2rem; }
+    .hero p { color: #666; font-size: 1.1rem; }
+
+    .btn { padding: 14px 35px; border-radius: 6px; font-weight: 700; font-size: 1rem; border: 2px solid transparent; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; transition: all 0.3s ease; display: inline-block; text-align: center; text-decoration: none; }
+    .btn-primary { background: #ff6b35; color: #fff; box-shadow: 0 4px 20px rgba(255, 107, 53, 0.3); }
+    .btn-primary:hover { background: #d4542f; transform: translateY(-2px); box-shadow: 0 8px 30px rgba(212, 84, 47, 0.4); }
+
     section { padding: 4rem 2rem; }
-    .section-alt { background: #f5f5f5; }
-    
+    .section-alt { background: #f9f9f9; }
+
     .contact-wrapper { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start; margin-top: 3rem; }
-    
-    .contact-info { background: linear-gradient(135deg, #2d2d2d 0%, #1a1a1a 100%); color: #fff; padding: 3rem; border-radius: 10px; }
-    .contact-info h3 { color: #ff6b35; margin-bottom: 2rem; }
+
+    .contact-info { background: linear-gradient(135deg, #2d2d2d 0%, #1a1a1a 100%); color: #fff; padding: 3rem; border-radius: 8px; }
+    .contact-info h3 { color: #ff6b35; margin-bottom: 2rem; font-size: 1.3rem; }
     .contact-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid #444; }
     .contact-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
-    .contact-item h4 { color: #f0f0f0; font-size: 1.1rem; margin-bottom: 0.5rem; }
-    .contact-item p { color: #bbb; margin-bottom: 0; }
+    .contact-item h4 { color: #f0f0f0; font-size: 1.05rem; margin-bottom: 0.5rem; }
+    .contact-item p { color: #bbb; margin-bottom: 0; font-size: 0.95rem; }
     .contact-item a { color: #ff6b35; }
     .contact-item a:hover { color: #ffb366; }
-    
-    .contact-form { background: #fff; padding: 2.5rem; border-radius: 10px; border: 2px solid #eee; }
-    .contact-form h3 { color: #d4542f; margin-bottom: 1.5rem; }
-    
+
+    .contact-form { background: #fff; padding: 2.5rem; border-radius: 8px; border: 1px solid #eee; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+    .contact-form h3 { color: #d4542f; margin-bottom: 1.5rem; font-size: 1.3rem; }
+
     .form-group { margin-bottom: 1.5rem; }
-    label { display: block; margin-bottom: 0.5rem; font-weight: 600; color: #1a1a1a; font-size: 0.95rem; }
+    label { display: block; margin-bottom: 0.6rem; font-weight: 600; color: #1a1a1a; font-size: 0.95rem; }
     input, textarea, select { width: 100%; padding: 12px; border: 2px solid #ddd; border-radius: 6px; font-family: inherit; font-size: 1rem; transition: all 0.3s ease; }
     input:focus, textarea:focus, select:focus { outline: none; border-color: #ff6b35; box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.1); }
-    textarea { resize: vertical; min-height: 150px; }
-    
+    textarea { resize: vertical; min-height: 120px; }
+
     .form-group.button { margin-bottom: 0; }
     .btn-submit { width: 100%; }
-    
+
     .info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 3rem; }
-    .info-card { background: #fff; padding: 2rem; border-radius: 10px; text-align: center; border: 2px solid #eee; }
+    .info-card { background: #fff; padding: 2rem; border-radius: 8px; text-align: center; border: 1px solid #eee; box-shadow: 0 2px 8px rgba(0,0,0,0.05); transition: all 0.3s ease; }
+    .info-card:hover { box-shadow: 0 8px 20px rgba(212, 84, 47, 0.1); }
     .info-card .icon { font-size: 2.5rem; margin-bottom: 1rem; }
-    .info-card h4 { color: #d4542f; margin-bottom: 0.5rem; }
-    .info-card p { color: #666; margin-bottom: 0; }
-    
-    footer { background: #1a1a1a; color: #bbb; padding: 3rem 2rem; text-align: center; border-top: 2px solid #d4542f; }
-    footer p { color: #bbb; margin-bottom: 0.5rem; }
-    
+    .info-card h4 { color: #d4542f; margin-bottom: 0.5rem; font-size: 1.1rem; }
+    .info-card p { color: #777; margin-bottom: 0; font-size: 0.95rem; }
+
+    footer { background: #1a1a1a; color: #aaa; padding: 3rem 2rem; text-align: center; border-top: 2px solid #d4542f; }
+    footer p { color: #aaa; margin-bottom: 0.5rem; font-size: 0.95rem; }
+
     @media (max-width: 768px) {
       h1 { font-size: 2.8rem; }
       h2 { font-size: 1.8rem; }
@@ -89,82 +90,121 @@
     <div class="container">
       <div class="logo">RHOME</div>
       <ul class="nav-links">
-        <li><a href="index.html">Index</a></li>
-        <li><a href="owners-1.html">Owners</a></li>
-        <li><a href="book-a-stay.html">Book a Stay</a></li>
-        <li><a href="contact-us.html" class="active">Contact Us</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="owners-1.html">For Owners</a></li>
+        <li><a href="contact-us.html" class="active">Get Started</a></li>
+        <li><a href="book-a-stay.html">For Guests</a></li>
       </ul>
     </div>
   </nav>
 
   <div class="hero">
-    <h1>Get in Touch</h1>
-    <p>Have questions? We'd love to hear from you. Reach out anytime.</p>
+    <h1>Schedule Your Free Consultation</h1>
+    <p>Discover how much your property can earn with professional management. Let's talk about your property and goals.</p>
   </div>
 
   <section>
     <div class="container">
       <div class="contact-wrapper">
         <div class="contact-info">
-          <h3>Contact Information</h3>
-          
+          <h3>Why Schedule a Consultation?</h3>
+
           <div class="contact-item">
-            <h4>📍 Headquarters</h4>
-            <p>Southern Utah</p>
+            <h4>📊 Free Revenue Analysis</h4>
+            <p>Get a detailed, personalized estimate of how much your property can earn annually with Rhome management.</p>
           </div>
-          
+
+          <div class="contact-item">
+            <h4>💡 Expert Guidance</h4>
+            <p>Our property experts will discuss your goals, answer all questions, and explain exactly how we work.</p>
+          </div>
+
+          <div class="contact-item">
+            <h4>⚡ No Obligation</h4>
+            <p>This is a completely free consultation. Learn about our services with zero commitment or pressure.</p>
+          </div>
+
           <div class="contact-item">
             <h4>📞 Phone</h4>
             <p><a href="tel:+1-555-0100">+1 (555) 0100</a></p>
           </div>
-          
+
           <div class="contact-item">
             <h4>📧 Email</h4>
             <p><a href="mailto:info@rhomevm.com">info@rhomevm.com</a></p>
           </div>
-          
+
           <div class="contact-item">
-            <h4>🕐 Business Hours</h4>
-            <p>Monday – Friday: 9:00 AM – 6:00 PM<br>Saturday – Sunday: 10:00 AM – 4:00 PM<br><strong>24/7 Guest Support Available</strong></p>
-          </div>
-          
-          <div class="contact-item">
-            <h4>💡 We Respond In</h4>
-            <p>Email: Within 2 hours<br>Phone: Within 1 hour<br>Emergency: Immediate</p>
+            <h4>🕐 Response Time</h4>
+            <p>We typically respond within 2 hours during business hours or first thing the next business day.</p>
           </div>
         </div>
-        
+
         <div class="contact-form">
-          <h3>Send us a Message</h3>
+          <h3>Tell Us About Your Property</h3>
           <form id="contact-form" onsubmit="handleFormSubmit(event)">
             <div class="form-group">
               <label for="name">Your Name *</label>
               <input type="text" id="name" name="name" required>
             </div>
-            
+
             <div class="form-group">
               <label for="email">Email Address *</label>
               <input type="email" id="email" name="email" required>
             </div>
-            
+
             <div class="form-group">
-              <label for="subject">Subject *</label>
-              <select id="subject" name="subject" required>
-                <option value="">-- Select a topic --</option>
-                <option>Property Listing Inquiry (Owner)</option>
-                <option>Booking Question (Guest)</option>
-                <option>General Information</option>
+              <label for="phone">Phone Number *</label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+
+            <div class="form-group">
+              <label for="property-location">Property Location *</label>
+              <input type="text" id="property-location" name="property-location" placeholder="City, neighborhood, or general area" required>
+            </div>
+
+            <div class="form-group">
+              <label for="property-type">Property Type *</label>
+              <select id="property-type" name="property-type" required>
+                <option value="">-- Select property type --</option>
+                <option>Single Family Home</option>
+                <option>Condo / Townhouse</option>
+                <option>Luxury Estate</option>
+                <option>Villa / Resort Home</option>
+                <option>Cabin / Cottage</option>
                 <option>Other</option>
               </select>
             </div>
-            
+
             <div class="form-group">
-              <label for="message">Message *</label>
-              <textarea id="message" name="message" required></textarea>
+              <label for="bedrooms">Bedrooms *</label>
+              <select id="bedrooms" name="bedrooms" required>
+                <option value="">-- Select --</option>
+                <option>1-2 Bedrooms</option>
+                <option>3-4 Bedrooms</option>
+                <option>5+ Bedrooms</option>
+              </select>
             </div>
-            
+
+            <div class="form-group">
+              <label for="inquiry-type">What interests you most? *</label>
+              <select id="inquiry-type" name="inquiry-type" required>
+                <option value="">-- Select a topic --</option>
+                <option>Revenue Analysis & Estimate</option>
+                <option>Property Management Services</option>
+                <option>Pricing & Fees</option>
+                <option>Getting Started</option>
+                <option>Questions About Process</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Tell Us About Your Property</label>
+              <textarea id="message" name="message" placeholder="Any details about your home, current situation, or questions?"></textarea>
+            </div>
+
             <div class="form-group button">
-              <button type="submit" class="btn btn-primary btn-submit">Send Message</button>
+              <button type="submit" class="btn btn-primary btn-submit">Schedule My Consultation</button>
             </div>
           </form>
         </div>
@@ -174,24 +214,42 @@
 
   <section class="section-alt">
     <div class="container">
-      <h2 style="text-align: center; color: #d4542f; margin-bottom: 3rem;">How We Help</h2>
+      <h2 style="text-align: center; color: #d4542f; margin-bottom: 3rem;">How We Help Property Owners</h2>
       <div class="info-grid">
         <div class="info-card">
-          <div class="icon">🏠</div>
-          <h4>For Property Owners</h4>
-          <p>Learn how to maximize rental income with professional management services. Schedule your free consultation.</p>
+          <div class="icon">📈</div>
+          <h4>Maximum Revenue</h4>
+          <p>Strategic pricing, 24/7 availability, and professional marketing drive 85%+ occupancy. Earn significantly more than managing alone.</p>
         </div>
-        
+
         <div class="info-card">
-          <div class="icon">✈️</div>
-          <h4>For Guests</h4>
-          <p>Get support with your booking, reservations, or questions about our properties and amenities.</p>
+          <div class="icon">🤖</div>
+          <h4>Complete Hands-Off</h4>
+          <p>We handle bookings, guests, maintenance, cleaning, and payments. You get monthly deposits and detailed reports.</p>
         </div>
-        
+
         <div class="info-card">
-          <div class="icon">💼</div>
-          <h4>For Businesses</h4>
-          <p>Corporate retreats, team building, group bookings. Custom packages available for your needs.</p>
+          <div class="icon">✅</div>
+          <h4>Quality Assured</h4>
+          <p>Rigorous guest screening, professional maintenance, 5-star reviews. Your property is treated like our own.</p>
+        </div>
+
+        <div class="info-card">
+          <div class="icon">💳</div>
+          <h4>Transparent & Simple</h4>
+          <p>Predictable monthly payments, no hidden fees, clear reporting. Complete financial transparency always.</p>
+        </div>
+
+        <div class="info-card">
+          <div class="icon">🛡️</div>
+          <h4>Full Protection</h4>
+          <p>Comprehensive insurance, liability coverage, damage protection. Your investment is fully secured and insured.</p>
+        </div>
+
+        <div class="info-card">
+          <div class="icon">⭐</div>
+          <h4>Proven Track Record</h4>
+          <p>15+ years managing 500+ properties. $2.5M+ generated for owners. Real results, real testimonials.</p>
         </div>
       </div>
     </div>
@@ -199,8 +257,8 @@
 
   <section style="background: linear-gradient(135deg, #ff6b35 0%, #d4542f 100%); color: #fff; text-align: center;">
     <div class="container">
-      <h2 style="color: #fff; margin-bottom: 1rem;">Prefer to Call?</h2>
-      <p style="color: #f0f0f0; font-size: 1.2rem; margin-bottom: 0;">Our team is ready to help: <strong>+1 (555) 0100</strong></p>
+      <h2 style="color: #fff; margin-bottom: 1.5rem; font-size: 2.2rem;">Ready to Learn More?</h2>
+      <p style="color: #f5f5f5; font-size: 1.1rem; margin-bottom: 0;">Complete the form above or call us at <strong>+1 (555) 0100</strong>. Our team responds quickly and we look forward to discussing your property!</p>
     </div>
   </section>
 
@@ -214,8 +272,8 @@
   <script>
     function handleFormSubmit(event) {
       event.preventDefault();
-      // Form submission logic would go here
-      alert('Thank you for your message! We will get back to you within 2 hours.\n\nFor immediate assistance, call +1 (555) 0100');
+      const name = document.getElementById('name').value;
+      alert(`Thank you, ${name}! We've received your request.\n\nOur team will contact you within 2 hours during business hours with your personalized property analysis.\n\nFor immediate assistance, call +1 (555) 0100`);
       document.getElementById('contact-form').reset();
     }
   </script>

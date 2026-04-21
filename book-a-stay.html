@@ -4,72 +4,61 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Luxury Vacation Rentals | Book a Stay | Rhome Vacation Management</title>
-  <meta name="description" content="Book your desert escape at stunning luxury vacation rentals. Premium properties in Southern Utah. Unforgettable experiences at competitive rates. Reserve today.">
+  <title>Luxury Vacation Rentals | Book Your Stay | Rhome</title>
+  <meta name="description" content="Discover luxury vacation rentals in stunning Southern Utah. Premium properties, professional management, unforgettable experiences.">
   <meta name="theme-color" content="#d4542f">
-  
+
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     html, body { height: 100%; }
-    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1a1a1a; background: #ffffff; line-height: 1.6; }
-    
-    h1, h2, h3, h4 { font-weight: 700; line-height: 1.2; margin-bottom: 1rem; color: #0a0a0a; }
-    h1 { font-size: 3.5rem; letter-spacing: -0.02em; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #333; background: #ffffff; line-height: 1.6; }
+
+    h1, h2, h3, h4 { font-weight: 700; line-height: 1.2; margin-bottom: 1rem; color: #1a1a1a; }
+    h1 { font-size: 3.8rem; letter-spacing: -0.02em; }
     h2 { font-size: 2.8rem; letter-spacing: -0.01em; }
     h3 { font-size: 1.6rem; }
-    p { font-size: 1.05rem; color: #333; margin-bottom: 1.5rem; }
+    p { font-size: 1.05rem; color: #555; margin-bottom: 1.5rem; }
     a { color: #d4542f; text-decoration: none; transition: all 0.3s ease; }
     a:hover { color: #c43b1a; }
-    
-    nav { position: sticky; top: 0; z-index: 1000; background: rgba(10, 10, 10, 0.95); backdrop-filter: blur(10px); padding: 1rem 0; border-bottom: 2px solid #d4542f; }
+
+    nav { position: sticky; top: 0; z-index: 1000; background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); padding: 1rem 0; border-bottom: 2px solid #d4542f; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
     nav .container { max-width: 1200px; margin: 0 auto; padding: 0 2rem; display: flex; justify-content: space-between; align-items: center; }
-    .logo { font-size: 1.5rem; font-weight: 700; color: #fff; letter-spacing: 0px; }
+    .logo { font-size: 1.5rem; font-weight: 700; color: #d4542f; letter-spacing: 1px; }
     .nav-links { display: flex; gap: 2.5rem; list-style: none; }
-    .nav-links a { font-size: 0.9rem; font-weight: 600; color: #ddd; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid transparent; padding-bottom: 0.25rem; transition: all 0.3s ease; }
+    .nav-links a { font-size: 0.9rem; font-weight: 600; color: #555; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid transparent; padding-bottom: 0.25rem; transition: all 0.3s ease; }
     .nav-links a:hover, .nav-links a.active { color: #ff6b35; border-bottom-color: #ff6b35; }
-    
+
     .container { max-width: 1200px; margin: 0 auto; padding: 0 2rem; }
-    
-    .hero { background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%); color: #fff; padding: 6rem 2rem; display: flex; align-items: center; min-height: 80vh; }
+
+    .hero { background: linear-gradient(135deg, #f9f9f9 0%, #ffffff 100%); color: #333; padding: 6rem 2rem; display: flex; align-items: center; min-height: 70vh; border-bottom: 1px solid #eee; }
     .hero-content { max-width: 700px; }
-    .hero h1 { color: #ff6b35; margin-bottom: 1.5rem; font-size: 4rem; }
-    .hero p { color: #f0f0f0; font-size: 1.3rem; margin-bottom: 2rem; line-height: 1.8; }
-    
-    .btn { padding: 14px 35px; border-radius: 8px; font-weight: 700; font-size: 1rem; border: 2px solid transparent; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; transition: all 0.3s ease; display: inline-block; text-align: center; text-decoration: none; }
-    .btn-primary { background: #ff6b35; color: #fff; box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3); }
-    .btn-primary:hover { background: #d4542f; transform: translateY(-3px); box-shadow: 0 8px 25px rgba(212, 84, 47, 0.4); }
-    .btn-secondary { background: rgba(255, 255, 255, 0.2); color: #fff; border-color: #fff; backdrop-filter: blur(10px); }
-    .btn-secondary:hover { background: rgba(255, 107, 53, 0.3); }
-    
+    .hero h1 { color: #d4542f; margin-bottom: 1.5rem; font-size: 4.2rem; }
+    .hero p { color: #666; font-size: 1.25rem; margin-bottom: 2rem; line-height: 1.8; font-weight: 400; }
+
+    .btn { padding: 16px 40px; border-radius: 6px; font-weight: 700; font-size: 0.95rem; border: 2px solid transparent; cursor: pointer; text-transform: uppercase; letter-spacing: 0.6px; transition: all 0.3s ease; display: inline-block; text-align: center; text-decoration: none; }
+    .btn-primary { background: #ff6b35; color: #fff; box-shadow: 0 4px 20px rgba(255, 107, 53, 0.3); }
+    .btn-primary:hover { background: #d4542f; transform: translateY(-2px); box-shadow: 0 8px 30px rgba(212, 84, 47, 0.4); }
+
     section { padding: 6rem 2rem; }
-    .section-alt { background: #f5f5f5; }
+    .section-alt { background: #f9f9f9; }
     .section-title { text-align: center; margin-bottom: 4rem; max-width: 700px; margin-left: auto; margin-right: auto; }
     .section-title h2 { margin-bottom: 1.5rem; color: #d4542f; }
-    .section-title p { color: #555; font-size: 1.15rem; }
-    
+    .section-title p { color: #777; font-size: 1.1rem; font-weight: 400; }
+
     .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2.5rem; margin-top: 3rem; }
-    .feature-card { background: #fff; padding: 2.5rem; border-radius: 10px; border: 2px solid #eee; transition: all 0.3s ease; }
-    .feature-card:hover { border-color: #ff6b35; box-shadow: 0 15px 40px rgba(212, 84, 47, 0.15); transform: translateY(-8px); }
+    .feature-card { background: #fff; padding: 2.5rem; border-radius: 8px; border: 1px solid #eee; transition: all 0.3s ease; box-shadow: 0 2px 10px rgba(0,0,0,0.05); text-align: center; }
+    .feature-card:hover { border-color: #ff6b35; box-shadow: 0 12px 30px rgba(212, 84, 47, 0.12); transform: translateY(-5px); }
     .feature-icon { font-size: 3rem; margin-bottom: 1rem; }
-    .feature-card h3 { margin-bottom: 1rem; color: #1a1a1a; }
-    .feature-card p { color: #666; margin-bottom: 0; font-size: 1rem; }
-    
-    .amenities-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; margin-top: 3rem; }
-    .amenity-item { background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%); padding: 1.5rem; border-radius: 8px; text-align: center; border-left: 4px solid #ff6b35; }
-    .amenity-item .icon { font-size: 2.5rem; margin-bottom: 0.5rem; }
-    .amenity-item p { margin: 0; font-weight: 600; font-size: 1rem; }
-    
-    .highlight-box { background: linear-gradient(135deg, #8b2e1a 0%, #1a1a1a 100%); color: #fff; padding: 3rem; border-radius: 10px; text-align: center; margin: 3rem 0; }
-    .highlight-box h2 { color: #ff6b35; }
-    .highlight-box p { color: #f0f0f0; font-size: 1.2rem; }
-    
-    .booking-section { background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%); color: #fff; padding: 4rem 2rem; text-align: center; }
-    .booking-section h2 { color: #ff6b35; text-align: center; }
-    .booking-section p { color: #f0f0f0; font-size: 1.1rem; }
-    
-    footer { background: #1a1a1a; color: #bbb; padding: 3rem 2rem; text-align: center; border-top: 2px solid #d4542f; }
-    footer p { color: #bbb; margin-bottom: 0.5rem; }
-    
+    .feature-card h3 { margin-bottom: 1rem; color: #1a1a1a; font-size: 1.3rem; }
+    .feature-card p { color: #777; margin-bottom: 0; font-size: 0.98rem; line-height: 1.7; }
+
+    .highlight-section { background: linear-gradient(135deg, #ff6b35 0%, #d4542f 100%); color: #fff; padding: 5rem 2rem; text-align: center; }
+    .highlight-section h2 { color: #fff; margin-bottom: 1.5rem; }
+    .highlight-section p { color: #f5f5f5; font-size: 1.15rem; margin-bottom: 2rem; }
+
+    footer { background: #1a1a1a; color: #aaa; padding: 3rem 2rem; text-align: center; border-top: 2px solid #d4542f; }
+    footer p { color: #aaa; margin-bottom: 0.5rem; font-size: 0.95rem; }
+
     @media (max-width: 768px) {
       h1 { font-size: 2.8rem; }
       h2 { font-size: 1.8rem; }
@@ -86,10 +75,10 @@
     <div class="container">
       <div class="logo">RHOME</div>
       <ul class="nav-links">
-        <li><a href="index.html">Index</a></li>
-        <li><a href="owners-1.html">Owners</a></li>
-        <li><a href="book-a-stay.html" class="active">Book a Stay</a></li>
-        <li><a href="contact-us.html">Contact Us</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="owners-1.html">For Owners</a></li>
+        <li><a href="contact-us.html">Get Started</a></li>
+        <li><a href="book-a-stay.html" class="active">For Guests</a></li>
       </ul>
     </div>
   </nav>
@@ -99,7 +88,7 @@
       <h1>Your Desert Escape Awaits</h1>
       <p>Experience luxury vacation living in stunning Southern Utah properties. Wake up to red rock views, adventure at your doorstep, and unforgettable memories with friends and family.</p>
       <div style="margin-top: 2rem;">
-        <a href="#book-now" class="btn btn-primary">Browse Available Properties</a>
+        <a href="#properties" class="btn btn-primary">Browse Available Properties</a>
       </div>
     </div>
   </div>
@@ -110,107 +99,84 @@
         <h2>Why Choose Rhome Properties</h2>
         <p>Premium accommodations managed by professionals who care about your experience.</p>
       </div>
-      
+
       <div class="features-grid">
         <div class="feature-card">
           <div class="feature-icon">✨</div>
           <h3>Pristine Condition</h3>
           <p>Every home professionally cleaned and maintained between guests. We inspect before arrival to ensure perfection.</p>
         </div>
-        
+
         <div class="feature-card">
           <div class="feature-icon">🏡</div>
           <h3>Luxury Finishes</h3>
           <p>Premium furnishings, modern amenities, gourmet kitchens, and spa-quality bathrooms for maximum comfort.</p>
         </div>
-        
+
         <div class="feature-card">
           <div class="feature-icon">📍</div>
           <h3>Perfect Locations</h3>
           <p>Properties positioned near Zion, Arches, The Wave, and Utah's most iconic hiking and adventure spots.</p>
         </div>
-        
+
         <div class="feature-card">
           <div class="feature-icon">💬</div>
-          <h3>24/7 Guest Support</h3>
+          <h3>24/7 Support</h3>
           <p>Questions? Issues? Our guest services team responds within 1 hour, any time of day or night.</p>
         </div>
-        
+
         <div class="feature-card">
           <div class="feature-icon">💎</div>
-          <h3>Verified Guests</h3>
-          <p>Rigorous screening ensures you share your stay only with respectful travelers. Safe, clean community.</p>
+          <h3>Verified Safety</h3>
+          <p>Rigorous safety standards and community screening ensures a safe, clean experience for all guests.</p>
         </div>
-        
+
         <div class="feature-card">
           <div class="feature-icon">⭐</div>
           <h3>5-Star Ratings</h3>
-          <p>Consistently rated 4.9+ stars across booking platforms. Real reviews from real guests. That's trust you can count on.</p>
+          <p>Consistently rated 4.9+ stars across platforms. Real reviews from real guests. Trust you can count on.</p>
         </div>
       </div>
     </div>
   </section>
 
   <section>
-    <div class="container">
-      <h2 style="text-align: center; color: #d4542f; margin-bottom: 3rem;">Premium Amenities</h2>
-      <div class="amenities-grid">
-        <div class="amenity-item">
-          <div class="icon">🏊</div>
-          <p>Private Pool & Hot Tub</p>
+    <div class="container" style="max-width: 800px; text-align: center;">
+      <h2 style="color: #d4542f; margin-bottom: 2rem;">Featured Amenities</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
+        <div style="padding: 1.5rem; background: #f9f9f9; border-radius: 8px; border-left: 3px solid #ff6b35;">
+          <div style="font-size: 2.2rem; margin-bottom: 0.5rem;">🏊</div>
+          <p style="margin: 0; font-weight: 600;">Private Pool</p>
         </div>
-        <div class="amenity-item">
-          <div class="icon">🧘</div>
-          <p>Spa Treatment Room</p>
+        <div style="padding: 1.5rem; background: #f9f9f9; border-radius: 8px; border-left: 3px solid #ff6b35;">
+          <div style="font-size: 2.2rem; margin-bottom: 0.5rem;">🌄</div>
+          <p style="margin: 0; font-weight: 600;">Red Rock Views</p>
         </div>
-        <div class="amenity-item">
-          <div class="icon">🍳</div>
-          <p>Chef's Kitchen Equipment</p>
+        <div style="padding: 1.5rem; background: #f9f9f9; border-radius: 8px; border-left: 3px solid #ff6b35;">
+          <div style="font-size: 2.2rem; margin-bottom: 0.5rem;">🎬</div>
+          <p style="margin: 0; font-weight: 600;">Theater Room</p>
         </div>
-        <div class="amenity-item">
-          <div class="icon">🎬</div>
-          <p>Theater Room & Gaming</p>
+        <div style="padding: 1.5rem; background: #f9f9f9; border-radius: 8px; border-left: 3px solid #ff6b35;">
+          <div style="font-size: 2.2rem; margin-bottom: 0.5rem;">🍳</div>
+          <p style="margin: 0; font-weight: 600;">Chef's Kitchen</p>
         </div>
-        <div class="amenity-item">
-          <div class="icon">🌄</div>
-          <p>Red Rock View Decks</p>
+        <div style="padding: 1.5rem; background: #f9f9f9; border-radius: 8px; border-left: 3px solid #ff6b35;">
+          <div style="font-size: 2.2rem; margin-bottom: 0.5rem;">🧘</div>
+          <p style="margin: 0; font-weight: 600;">Spa Room</p>
         </div>
-        <div class="amenity-item">
-          <div class="icon">🛏️</div>
-          <p>Luxury Bedding & Linens</p>
+        <div style="padding: 1.5rem; background: #f9f9f9; border-radius: 8px; border-left: 3px solid #ff6b35;">
+          <div style="font-size: 2.2rem; margin-bottom: 0.5rem;">🛏️</div>
+          <p style="margin: 0; font-weight: 600;">Luxury Bedding</p>
         </div>
       </div>
     </div>
   </section>
 
-  <div class="highlight-box">
+  <div class="highlight-section">
     <div class="container" style="max-width: 700px;">
-      <h2>From $189 per night</h2>
-      <p>Book your stay now. Check-in flexibility. Cancel anytime.</p>
-    </div>
-  </div>
-
-  <section class="section-alt">
-    <div class="container" style="max-width: 800px;">
-      <h2 style="text-align: center; color: #d4542f; margin-bottom: 2rem;">Guest Love Stories</h2>
-      
-      <div style="background: #fff; padding: 2rem; border-radius: 10px; border-left: 4px solid #ff6b35; margin-bottom: 1.5rem;">
-        <p style="font-style: italic; color: #555; margin-bottom: 0.5rem;">"Absolutely stunning! From the moment we arrived, we felt like we were in our own private luxury resort. The views alone are worth the price. We're already planning our return."</p>
-        <p style="font-weight: 700; color: #d4542f;">⭐⭐⭐⭐⭐ — Sarah & David, Google Reviews</p>
-      </div>
-      
-      <div style="background: #fff; padding: 2rem; border-radius: 10px; border-left: 4px solid #ff6b35;">
-        <p style="font-style: italic; color: #555; margin-bottom: 0.5rem;">"Best property we've rented in Utah. Impeccably clean, well-maintained, and the manager was so responsive. This is vacation done right."</p>
-        <p style="font-weight: 700; color: #d4542f;">⭐⭐⭐⭐⭐ — Michael & Emma, Airbnb Reviews</p>
-      </div>
-    </div>
-  </section>
-
-  <div class="booking-section">
-    <div class="container" style="max-width: 700px;">
-      <h2>Ready to Book Your Escape?</h2>
-      <p style="margin-bottom: 2rem;">Your dream vacation in Southern Utah is just a click away. Check availability and book instantly.</p>
-      <a href="contact-us.html" class="btn btn-secondary">View All Properties</a>
+      <h2>Starting from $189 per night</h2>
+      <p>Book your escape now. Flexible check-in times. Cancel anytime.</p>
+      <a href="#properties" class="btn btn-primary" style="margin-top: 1.5rem;">View Properties</a>
     </div>
   </div>
 

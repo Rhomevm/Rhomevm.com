@@ -4,72 +4,87 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Rhome Vacation Management - Premium Vacation Rentals & Property Management</title>
-  <meta name="description" content="Maximize your vacation rental income with Rhome Vacation Management. Expert property management and luxury vacation homes in Southern Utah.">
+  <title>Vacation Rental Management for Property Owners | Rhome</title>
+  <meta name="description" content="Maximize your vacation rental income with Rhome. Professional STR property management in Southern Utah. Earn 40-50% more from your property.">
   <meta name="theme-color" content="#d4542f">
   <meta name="google-site-verification" content="jU17JpkJvXqPP4cxWwRdible8OSmJ0uUm_-yePJvTQI">
-  
+
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     html, body { height: 100%; }
-    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1a1a1a; background: #ffffff; line-height: 1.6; }
-    
-    h1, h2, h3, h4 { font-weight: 700; line-height: 1.2; margin-bottom: 1rem; color: #0a0a0a; }
-    h1 { font-size: 3.5rem; letter-spacing: -0.02em; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #333; background: #ffffff; line-height: 1.6; }
+
+    h1, h2, h3, h4 { font-weight: 700; line-height: 1.2; margin-bottom: 1rem; color: #1a1a1a; }
+    h1 { font-size: 3.8rem; letter-spacing: -0.02em; }
     h2 { font-size: 2.8rem; letter-spacing: -0.01em; }
     h3 { font-size: 1.6rem; }
-    p { font-size: 1.05rem; color: #333; margin-bottom: 1.5rem; }
+    p { font-size: 1.05rem; color: #555; margin-bottom: 1.5rem; }
     a { color: #d4542f; text-decoration: none; transition: all 0.3s ease; }
     a:hover { color: #c43b1a; }
-    
-    nav { position: sticky; top: 0; z-index: 1000; background: rgba(10, 10, 10, 0.95); backdrop-filter: blur(10px); padding: 1rem 0; border-bottom: 2px solid #d4542f; }
+
+    nav { position: sticky; top: 0; z-index: 1000; background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); padding: 1rem 0; border-bottom: 2px solid #d4542f; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
     nav .container { max-width: 1200px; margin: 0 auto; padding: 0 2rem; display: flex; justify-content: space-between; align-items: center; }
-    .logo { font-size: 1.5rem; font-weight: 700; color: #fff; letter-spacing: 0px; }
+    .logo { font-size: 1.5rem; font-weight: 700; color: #d4542f; letter-spacing: 1px; }
     .nav-links { display: flex; gap: 2.5rem; list-style: none; }
-    .nav-links a { font-size: 0.9rem; font-weight: 600; color: #ddd; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid transparent; padding-bottom: 0.25rem; transition: all 0.3s ease; }
+    .nav-links a { font-size: 0.9rem; font-weight: 600; color: #555; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid transparent; padding-bottom: 0.25rem; transition: all 0.3s ease; }
     .nav-links a:hover, .nav-links a.active { color: #ff6b35; border-bottom-color: #ff6b35; }
-    
+
     .container { max-width: 1200px; margin: 0 auto; padding: 0 2rem; }
-    
+
     .hero { position: relative; min-height: 100vh; display: flex; align-items: center; overflow: hidden; }
-    .hero::before { content: ''; position: absolute; inset: 0; background: linear-gradient(135deg, rgba(212, 84, 47, 0.7) 0%, rgba(26, 26, 26, 0.8) 100%), url('https://img1.wsimg.com/isteam/ip/c7d1552d-f7ff-4cea-afdf-ad3be2ef83a3/3633%20Cyprus%20Point%20Road-33.jpg'); background-size: cover; background-position: center; z-index: 1; }
-    .hero-content { position: relative; z-index: 2; max-width: 650px; color: #fff; padding: 4rem 2rem; }
-    .hero h1 { color: #fff; margin-bottom: 1.5rem; font-size: 4.5rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
-    .hero p { color: #f0f0f0; font-size: 1.3rem; margin-bottom: 2.5rem; line-height: 1.8; }
-    
+    .hero::before { content: ''; position: absolute; inset: 0; background: linear-gradient(135deg, rgba(212, 84, 47, 0.5) 0%, rgba(26, 26, 26, 0.6) 100%), url('https://img1.wsimg.com/isteam/ip/c7d1552d-f7ff-4cea-afdf-ad3be2ef83a3/3633%20Cyprus%20Point%20Road-33.jpg'); background-size: cover; background-position: center; z-index: 1; }
+    .hero-content { position: relative; z-index: 2; max-width: 700px; color: #fff; padding: 4rem 2rem; }
+    .hero h1 { color: #fff; margin-bottom: 1.5rem; font-size: 4.8rem; text-shadow: 2px 2px 6px rgba(0,0,0,0.3); line-height: 1.1; }
+    .hero p { color: #f5f5f5; font-size: 1.35rem; margin-bottom: 2.5rem; line-height: 1.8; font-weight: 300; }
+
     .cta-buttons { display: flex; gap: 1.5rem; flex-wrap: wrap; margin-top: 2rem; }
-    .btn { padding: 14px 35px; border-radius: 8px; font-weight: 700; font-size: 1rem; border: 2px solid transparent; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; transition: all 0.3s ease; display: inline-block; text-align: center; text-decoration: none; }
-    .btn-primary { background: #ff6b35; color: #fff; box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3); }
-    .btn-primary:hover { background: #d4542f; transform: translateY(-3px); box-shadow: 0 8px 25px rgba(212, 84, 47, 0.4); }
-    .btn-secondary { background: rgba(255, 255, 255, 0.2); color: #fff; border-color: #fff; backdrop-filter: blur(10px); }
+    .btn { padding: 16px 40px; border-radius: 6px; font-weight: 700; font-size: 0.95rem; border: 2px solid transparent; cursor: pointer; text-transform: uppercase; letter-spacing: 0.6px; transition: all 0.3s ease; display: inline-block; text-align: center; text-decoration: none; }
+    .btn-primary { background: #ff6b35; color: #fff; box-shadow: 0 4px 20px rgba(255, 107, 53, 0.3); }
+    .btn-primary:hover { background: #d4542f; transform: translateY(-2px); box-shadow: 0 8px 30px rgba(212, 84, 47, 0.4); }
+    .btn-secondary { background: rgba(255, 255, 255, 0.15); color: #fff; border-color: #fff; backdrop-filter: blur(10px); }
     .btn-secondary:hover { background: rgba(255, 107, 53, 0.3); border-color: #ff6b35; }
-    
-    .stats { background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%); padding: 5rem 2rem; }
-    .stats .container { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 2rem; }
+
+    .stats { background: linear-gradient(135deg, #f9f9f9 0%, #ffffff 100%); padding: 5rem 2rem; border-top: 1px solid #eee; border-bottom: 1px solid #eee; }
+    .stats .container { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 3rem; }
     .stat-item { text-align: center; }
-    .stat-number { font-size: 3.5rem; font-weight: 700; color: #ff6b35; }
-    .stat-label { font-size: 1rem; color: #ddd; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600; }
-    
+    .stat-number { font-size: 3.5rem; font-weight: 700; color: #d4542f; }
+    .stat-label { font-size: 0.95rem; color: #999; text-transform: uppercase; letter-spacing: 0.8px; font-weight: 600; }
+
     section { padding: 6rem 2rem; }
-    .section-alt { background: #f5f5f5; }
+    .section-alt { background: #f9f9f9; }
     .section-title { text-align: center; margin-bottom: 4rem; max-width: 700px; margin-left: auto; margin-right: auto; }
     .section-title h2 { margin-bottom: 1.5rem; color: #d4542f; }
-    .section-title p { color: #555; font-size: 1.15rem; }
-    
-    .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2.5rem; margin-top: 3rem; }
-    .feature-card { background: #fff; padding: 2.5rem; border-radius: 10px; border: 2px solid #eee; transition: all 0.3s ease; text-align: center; }
-    .feature-card:hover { border-color: #ff6b35; box-shadow: 0 15px 40px rgba(212, 84, 47, 0.15); transform: translateY(-8px); }
+    .section-title p { color: #777; font-size: 1.1rem; font-weight: 400; }
+
+    .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2.5rem; margin-top: 3rem; }
+    .feature-card { background: #fff; padding: 2.5rem; border-radius: 8px; border: 1px solid #eee; transition: all 0.3s ease; text-align: center; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+    .feature-card:hover { border-color: #ff6b35; box-shadow: 0 12px 30px rgba(212, 84, 47, 0.12); transform: translateY(-5px); }
     .feature-icon { font-size: 3rem; margin-bottom: 1rem; }
-    .feature-card h3 { margin-bottom: 1rem; color: #1a1a1a; }
-    .feature-card p { color: #666; margin-bottom: 0; font-size: 1rem; }
-    
-    .cta-section { background: linear-gradient(135deg, #d4542f 0%, #8b2e1a 100%); color: #fff; padding: 5rem 2rem; margin: 3rem 0; border-radius: 15px; text-align: center; }
-    .cta-section h2 { color: #fff; margin-bottom: 1rem; }
-    .cta-section p { color: #f0f0f0; font-size: 1.1rem; margin-bottom: 2rem; }
-    
-    footer { background: #1a1a1a; color: #bbb; padding: 3rem 2rem; text-align: center; border-top: 2px solid #d4542f; }
-    footer p { color: #bbb; margin-bottom: 0.5rem; }
-    
+    .feature-card h3 { margin-bottom: 1rem; color: #1a1a1a; font-size: 1.3rem; }
+    .feature-card p { color: #777; margin-bottom: 0; font-size: 0.98rem; line-height: 1.7; }
+
+    .revenue-highlight { background: linear-gradient(135deg, #ff6b35 0%, #d4542f 100%); color: #fff; padding: 4rem 2rem; margin: 3rem 0; border-radius: 12px; text-align: center; }
+    .revenue-highlight h2 { color: #fff; font-size: 3.2rem; margin-bottom: 1rem; }
+    .revenue-highlight p { color: #f5f5f5; font-size: 1.2rem; margin-bottom: 0; }
+    .revenue-stat { font-size: 2.8rem; font-weight: 700; color: #fff; margin: 2rem 0 1rem 0; }
+
+    .testimonials-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2.5rem; margin-top: 3rem; }
+    .testimonial-card { background: #fff; padding: 2.5rem; border-radius: 8px; border-left: 4px solid #ff6b35; box-shadow: 0 2px 10px rgba(0,0,0,0.05); transition: all 0.3s ease; }
+    .testimonial-card:hover { box-shadow: 0 8px 25px rgba(212, 84, 47, 0.1); }
+    .testimonial-text { font-style: italic; color: #555; margin-bottom: 1.5rem; font-size: 1rem; line-height: 1.8; }
+    .testimonial-author { font-weight: 700; color: #d4542f; font-size: 0.95rem; }
+    .testimonial-result { font-size: 0.9rem; color: #999; margin-top: 0.5rem; }
+
+    .cta-section { background: linear-gradient(135deg, #d4542f 0%, #8b2e1a 100%); color: #fff; padding: 5rem 2rem; text-align: center; border-radius: 12px; }
+    .cta-section h2 { color: #fff; margin-bottom: 1.5rem; }
+    .cta-section p { color: #f5f5f5; font-size: 1.15rem; margin-bottom: 2rem; }
+
+    footer { background: #1a1a1a; color: #aaa; padding: 3rem 2rem; text-align: center; border-top: 2px solid #d4542f; }
+    footer p { color: #aaa; margin-bottom: 0.5rem; font-size: 0.95rem; }
+
+    .text-center { text-align: center; }
+    .mb-3 { margin-bottom: 3rem; }
+
     @media (max-width: 768px) {
       h1 { font-size: 2.8rem; }
       h2 { font-size: 1.8rem; }
@@ -80,6 +95,7 @@
       .cta-buttons { flex-direction: column; }
       .btn { width: 100%; }
       section { padding: 3rem 2rem; }
+      nav { background: rgba(255, 255, 255, 0.98); }
     }
   </style>
 </head>
@@ -88,21 +104,21 @@
     <div class="container">
       <div class="logo">RHOME</div>
       <ul class="nav-links">
-        <li><a href="index.html" class="active">Index</a></li>
-        <li><a href="owners-1.html">Owners</a></li>
-        <li><a href="book-a-stay.html">Book a Stay</a></li>
-        <li><a href="contact-us.html">Contact Us</a></li>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="owners-1.html">For Owners</a></li>
+        <li><a href="contact-us.html">Get Started</a></li>
+        <li><a href="book-a-stay.html">For Guests</a></li>
       </ul>
     </div>
   </nav>
 
   <div class="hero">
     <div class="hero-content">
-      <h1>Your Vacation. Your Home. Your Way.</h1>
-      <p>Premium vacation property management that maximizes revenue for owners and delivers unforgettable experiences for guests in stunning Southern Utah.</p>
+      <h1>Turn Your Property Into a Revenue Machine</h1>
+      <p>Stop managing guests yourself. Rhome handles everything—bookings, maintenance, cleaning, payments. Earn 40-50% more than traditional rentals while you relax.</p>
       <div class="cta-buttons">
-        <a href="book-a-stay.html" class="btn btn-primary">Book Your Escape</a>
-        <a href="owners-1.html" class="btn btn-secondary">Grow Your Revenue</a>
+        <a href="contact-us.html" class="btn btn-primary">Schedule Free Consultation</a>
+        <a href="owners-1.html" class="btn btn-secondary">Learn More</a>
       </div>
     </div>
   </div>
@@ -110,20 +126,20 @@
   <div class="stats">
     <div class="container">
       <div class="stat-item">
-        <div class="stat-number">$2.5M+</div>
-        <div class="stat-label">Revenue Generated</div>
-      </div>
-      <div class="stat-item">
         <div class="stat-number">500+</div>
-        <div class="stat-label">Happy Property Owners</div>
+        <div class="stat-label">Property Owners Managed</div>
       </div>
       <div class="stat-item">
-        <div class="stat-number">10K+</div>
-        <div class="stat-label">Satisfied Guests</div>
+        <div class="stat-number">$2.5M+</div>
+        <div class="stat-label">Revenue Generated for Owners</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">85%+</div>
+        <div class="stat-label">Average Annual Occupancy</div>
       </div>
       <div class="stat-item">
         <div class="stat-number">15+</div>
-        <div class="stat-label">Years Excellence</div>
+        <div class="stat-label">Years of Excellence</div>
       </div>
     </div>
   </div>
@@ -131,82 +147,128 @@
   <section>
     <div class="container">
       <div class="section-title">
-        <h2>Why Choose Rhome?</h2>
-        <p>We combine luxury hospitality with expert property management to deliver results.</p>
+        <h2>Why Property Owners Choose Rhome</h2>
+        <p>We're not just a property manager—we're your partner in wealth building.</p>
       </div>
-      
+
       <div class="features-grid">
         <div class="feature-card">
-          <div class="feature-icon">📈</div>
-          <h3>Revenue Maximized</h3>
-          <p>Strategic pricing and marketing drive occupancy rates up to 85% annually, maximizing your investment returns.</p>
-        </div>
-        
-        <div class="feature-card">
-          <div class="feature-icon">🎯</div>
-          <h3>Guest Vetted</h3>
-          <p>Rigorous screening ensures only quality guests. Minimal issues, maximum 5-star reviews consistently.</p>
-        </div>
-        
-        <div class="feature-card">
-          <div class="feature-icon">⚡</div>
-          <h3>Hands-Free</h3>
-          <p>We handle everything—from bookings to maintenance to 24/7 guest support. You relax, we deliver.</p>
-        </div>
-        
-        <div class="feature-card">
           <div class="feature-icon">💰</div>
-          <h3>Transparent Earnings</h3>
-          <p>Detailed monthly reports show exactly what you earned, with zero hidden fees. Full financial transparency.</p>
+          <h3>Maximum Revenue</h3>
+          <p>Strategic pricing algorithms and marketing drive occupancy up to 85% annually. Earn significantly more than you would managing alone.</p>
         </div>
-        
+
         <div class="feature-card">
-          <div class="feature-icon">🏆</div>
-          <h3>Premium Experience</h3>
-          <p>Every guest interaction reflects luxury. Professional check-ins, concierge service, and follow-up care.</p>
+          <div class="feature-icon">🤖</div>
+          <h3>100% Hands-Free</h3>
+          <p>We handle bookings, guest communication, cleaning, maintenance, and everything else. You receive monthly deposits and detailed reports.</p>
         </div>
-        
+
         <div class="feature-card">
           <div class="feature-icon">🛡️</div>
-          <h3>Fully Protected</h3>
-          <p>Comprehensive insurance, damage protection, and liability coverage keeps your property secure.</p>
+          <h3>Full Protection</h3>
+          <p>Comprehensive insurance, damage liability, and legal compliance covered. Your investment is fully protected and compliant.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">✅</div>
+          <h3>Quality Guests Only</h3>
+          <p>Rigorous screening ensures only vetted, responsible guests. Enjoy 5-star reviews and minimal issues or emergencies.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>Transparent Reporting</h3>
+          <p>Detailed monthly reports show earnings, occupancy, maintenance—everything. No hidden fees, complete financial transparency.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🎯</div>
+          <h3>Proven Track Record</h3>
+          <p>15+ years managing premium properties in Southern Utah. We know the market, optimize performance, and deliver results.</p>
         </div>
       </div>
     </div>
   </section>
 
+  <div class="revenue-highlight">
+    <div class="container" style="max-width: 800px;">
+      <h2>Typical Owner Earns</h2>
+      <div class="revenue-stat">$18,000 - $28,000 Annually</div>
+      <p>From a single property managed by Rhome. That's 40-50% more than managing alone.</p>
+      <a href="contact-us.html" class="btn btn-secondary" style="margin-top: 2rem;">See Your Property's Potential</a>
+    </div>
+  </div>
+
   <section class="section-alt">
-    <div class="container" style="max-width: 900px;">
-      <div style="text-align: center;">
-        <h2 style="color: #d4542f; margin-bottom: 2rem;">For Homeowners</h2>
-        <p style="font-size: 1.1rem; margin-bottom: 3rem; color: #555;">Turn your property into a revenue powerhouse. Rhome Vacation Management handles everything—guest management, maintenance, cleaning, and payments. Earn 40-50% more than traditional rentals while we handle 100% of the work.</p>
-        <a href="owners-1.html" class="btn btn-primary">Explore Ownership Benefits</a>
+    <div class="container">
+      <div class="section-title">
+        <h2>Real Results From Real Owners</h2>
+        <p>See what property owners are earning with Rhome management.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-text">"We increased our annual revenue by 45% in year one. Rhome's professional management and guest screening is incredible. Best decision we made."</div>
+          <div class="testimonial-author">Mark & Jennifer, Property Owners</div>
+          <div class="testimonial-result">📈 Up 45% revenue, Zero guest issues</div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-text">"We were spending 15+ hours per month managing guests. Now we get a check every month and don't lift a finger. It's passive income at its best."</div>
+          <div class="testimonial-author">Sarah M., Mountain Property Owner</div>
+          <div class="testimonial-result">⏱️ Saves 180+ hours/year, Stress-free</div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-text">"The attention to detail is remarkable. Our property is always immaculate between guests, and we get 5-star reviews consistently. Rhome treats it like their own."</div>
+          <div class="testimonial-author">David L., Luxury Home Owner</div>
+          <div class="testimonial-result">⭐ 4.9/5 average rating, Premium experience</div>
+        </div>
       </div>
     </div>
   </section>
 
   <section>
     <div class="container" style="max-width: 900px;">
-      <div style="text-align: center;">
-        <h2 style="color: #d4542f; margin-bottom: 2rem;">For Guests</h2>
-        <p style="font-size: 1.1rem; margin-bottom: 3rem; color: #555;">Discover extraordinary homes in Southern Utah's most breathtaking locations. From cozy mountain retreats to luxury estates, every property is hand-selected for comfort and character. Professional service, memorable stays.</p>
-        <a href="book-a-stay.html" class="btn btn-primary">Browse Properties</a>
+      <div class="text-center mb-3">
+        <h2 style="color: #d4542f; margin-bottom: 2rem;">How It Works (In 3 Simple Steps)</h2>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 3rem;">
+        <div style="background: #f9f9f9; padding: 3rem; border-radius: 8px; text-align: center;">
+          <div style="font-size: 3.2rem; font-weight: 700; color: #ff6b35; margin-bottom: 1rem;">1</div>
+          <h3 style="color: #1a1a1a; margin-bottom: 1rem;">List Your Property</h3>
+          <p style="color: #777;">We evaluate your home, set competitive pricing, and create professional listings across all major booking platforms.</p>
+        </div>
+
+        <div style="background: #f9f9f9; padding: 3rem; border-radius: 8px; text-align: center;">
+          <div style="font-size: 3.2rem; font-weight: 700; color: #ff6b35; margin-bottom: 1rem;">2</div>
+          <h3 style="color: #1a1a1a; margin-bottom: 1rem;">We Manage Everything</h3>
+          <p style="color: #777;">Guest bookings, check-ins, maintenance, cleaning, communication, payments—our expert team handles 100% of operations.</p>
+        </div>
+
+        <div style="background: #f9f9f9; padding: 3rem; border-radius: 8px; text-align: center;">
+          <div style="font-size: 3.2rem; font-weight: 700; color: #ff6b35; margin-bottom: 1rem;">3</div>
+          <h3 style="color: #1a1a1a; margin-bottom: 1rem;">Earn & Relax</h3>
+          <p style="color: #777;">Receive monthly deposits and detailed reports. Watch your investment grow without lifting a finger.</p>
+        </div>
       </div>
     </div>
   </section>
 
   <div class="cta-section">
     <div class="container">
-      <h2>Ready to Transform Your Vacation? Or Your Investment?</h2>
-      <p>Join thousands of owners and guests who've discovered the Rhome difference.</p>
-      <a href="contact-us.html" class="btn btn-secondary" style="margin-top: 1.5rem;">Get Started Today</a>
+      <h2>Ready to Maximize Your Property's Potential?</h2>
+      <p>Schedule a free consultation with our property experts today. Learn exactly how much your home can earn.</p>
+      <a href="contact-us.html" class="btn btn-secondary" style="margin-top: 1.5rem;">Schedule Consultation</a>
     </div>
   </div>
 
   <footer>
     <div class="container">
       <p>&copy; 2024 Rhome Vacation Management. All rights reserved.</p>
-      <p>Premium vacation rentals & property management in Southern Utah</p>
+      <p>Professional vacation property management in Southern Utah</p>
     </div>
   </footer>
 </body>
